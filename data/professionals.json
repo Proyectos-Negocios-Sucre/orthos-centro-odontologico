@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Juan Méndez",
+    "specialty": "IMPLANTOLOGÍA AVANZADA",
+    "image": "https://images.unsplash.com/photo-1612349317228-47fa634d76f3?w=400&h=400&fit=crop",
+    "description": "Especialista en rehabilitación oral compleja con más de 19 años de trayectorias internacionales",
+    "fullBio": "El Dr. Juan Méndez es un profesional destacado en implantología dental. Posee más de 19 años de experiencia en rehabilitación oral, con formación internacional en las mejores universidades de Estados Unidos y Europa. Es miembro activo de asociaciones odontológicas internacionales.",
+    "certifications": ["Implantología Avanzada", "Rehabilitación Oral", "Cirugía Maxilofacial"],
+    "email": "dr.mendez@orthos.com",
+    "social": {
+      "whatsapp": "+591700XXXXX",
+      "instagram": "@drjuanmendez",
+      "facebook": "drjuanmendez"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Dra. María Rodríguez",
+    "specialty": "ORTODONCIA & ESTÉTICA",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    "description": "Líder en tratamientos de alineamiento invisible y diseño de sonrisa digital personalizado",
+    "fullBio": "La Dra. María Rodríguez es experta en ortodoncia estética con especialización en tratamientos invisibles. Utiliza tecnología de escaneo 3D y planificación digital para diseñar la sonrisa perfecta.",
+    "certifications": ["Ortodoncia Estética", "Alineadores Invisibles", "Diseño Digital de Sonrisa"],
+    "email": "dra.rodriguez@orthos.com",
+    "social": {
+      "whatsapp": "+591700XXXXX",
+      "instagram": "@dra_maria_rd",
+      "facebook": "dramariaodontologia"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Dr. Carlos López",
+    "specialty": "CIRUGÍA MAXILOFACIAL",
+    "image": "https://images.unsplash.com/photo-1622879494294-1a5c8e2d7b6f?w=400&h=400&fit=crop",
+    "description": "Experto en procedimientos quirúrgicos de alta precisión con enfoque recuperatorio mínimo",
+    "fullBio": "El Dr. Carlos López es especialista en cirugía oral y maxilofacial con certificaciones internacionales. Realiza procedimientos complejos con la más moderna tecnología quirúrgica.",
+    "certifications": ["Cirugía Maxilofacial", "Implantología Quirúrgica", "Traumatología Oral"],
+    "email": "dr.lopez@orthos.com",
+    "social": {
+      "whatsapp": "+591700XXXXX",
+      "facebook": "drcarloslópezorthos"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Dra. Ana Belén",
+    "specialty": "ODONTOPEDIATRÍA",
+    "image": "https://images.unsplash.com/photo-1631217314983-eb7ede60b971?w=400&h=400&fit=crop",
+    "description": "Especialista en crecimiento y desarrollo oral. Positiva y sin miedo para los más pequeños de la casa",
+    "fullBio": "La Dra. Ana Belén es especialista en odontopediatría con formación en manejo psicológico infantil. Crea un ambiente seguro y lúdico para que los niños disfruten sus visitas.",
+    "certifications": ["Odontopediatría", "Psicología Infantil Aplicada", "Ortodoncia Pediátrica"],
+    "email": "dra.anabelen@orthos.com",
+    "social": {
+      "instagram": "@dra_anabelen",
+      "facebook": "draanabelenodonto"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Dr. Ricardo Sosa",
+    "specialty": "ENDODONCIA",
+    "image": "https://images.unsplash.com/photo-1536891620095-ef783f7abc41?w=400&h=400&fit=crop",
+    "description": "Dedicado a la preservación dental con técnicas microscópicas de vanguardia",
+    "fullBio": "El Dr. Ricardo Sosa es especialista en endodoncia con formación en microscopía dental. Utiliza tecnología rotativa avanzada para tratamientos de conducto eficaces y predecibles.",
+    "certifications": ["Endodoncia", "Microscopía Dental", "Traumatología Dental"],
+    "social": {
+      "whatsapp": "+591700XXXXX"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Dra. Elena Castro",
+    "specialty": "PERIODONCIA",
+    "image": "https://images.unsplash.com/photo-1611628622508-45a34e63fc89?w=400&h=400&fit=crop",
+    "description": "Cuidado íntegro de la salud gingival y lógica de soporte dental",
+    "fullBio": "La Dra. Elena Castro es especialista en periodoncia e implantología. Se enfoca en la prevención y tratamiento de enfermedades de las encías con protocolos científicamente respaldados.",
+    "certifications": ["Periodoncia", "Implantología", "Regeneración Ósea"],
+    "social": {
+      "instagram": "@dra_elena_castro"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Dr. Felipe Vargas",
+    "specialty": "ESTÉTICA DENTAL",
+    "image": "https://images.unsplash.com/photo-1537368310025-700d6d9b0e32?w=400&h=400&fit=crop",
+    "description": "Perfecciona el cambio y características de vida de pequeños procedimientos de alta gama",
+    "fullBio": "El Dr. Felipe Vargas es experto en estética dental y diseño de sonrisa. Realiza tratamientos que combinan precisión técnica con excelencia estética.",
+    "certifications": ["Estética Dental", "Diseño Digital de Sonrisa", "Carillas Cerámicas"],
+    "social": {
+      "whatsapp": "+591700XXXXX"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Dra. Lucía Torres",
+    "specialty": "ODONTOLOGÍA GENERAL",
+    "image": "https://images.unsplash.com/photo-1594824476967-48c687c083bb?w=400&h=400&fit=crop",
+    "description": "Enfoque preventivo integral de la salud bucal para toda la familia",
+    "fullBio": "La Dra. Lucía Torres es odontóloga general con enfoque en prevención. Ofrece atención integral a todas las edades con un trato humano y empático.",
+    "certifications": ["Odontología General", "Prevención Dental", "Terapia Familiar Bucal"],
+    "social": {
+      "instagram": "@dra_lucia_torres"
+    }
+  }
+]

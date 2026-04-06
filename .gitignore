@@ -1,0 +1,49 @@
+# .gitignore para proyecto Next.js (SPA)
+
+# dependencias
+/node_modules/
+
+# builds / export
+/.next/
+.out/
+/out/
+/build/
+/dist/
+
+# caches
+.next/cache
+.pnp
+.pnp.js
+*.tsbuildinfo
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# variables de entorno / secretos
+.env
+.env.*.local
+.env.local
+
+# controladores de editor / sistema
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# testing / cobertura
+coverage/
+
+# despliegue / plataformas
+.vercel/
+.vercel_build_output/
+
+# archivos temporales
+*.swp
+*.swo

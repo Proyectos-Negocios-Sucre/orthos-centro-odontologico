@@ -1,0 +1,19 @@
+{
+  "address": "Av. Las Palmeras #123, Edificio Los Ólivos, Planta Baja, Santa Cruz de la Sierra",
+  "phone": "+591 3 345 6788",
+  "whatsapp": "+591 700 12345",
+  "email": "contacto@orthoscentro.com",
+  "hours": {
+    "weekday": "8:00 AM - 6:00 PM",
+    "saturday": "9:00 AM - 2:00 PM",
+    "sunday": "Cerrado"
+  },
+  "latitude": -17.7833,
+  "longitude": -63.1821,
+  "social": {
+    "facebook": "https://facebook.com/orthoscentro",
+    "instagram": "https://instagram.com/orthoscentro",
+    "tiktok": "https://tiktok.com/@orthoscentro",
+    "whatsapp": "https://wa.me/591700012345"
+  }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "5 hábitos para una sonrisa saludable cada mañana",
+    "category": "Higiene Dental",
+    "image": "https://images.unsplash.com/photo-1584622181563-430259afc5b1?w=400&h=250&fit=crop",
+    "excerpt": "Descubre los secretos para mantener una sonrisa radiante con simples hábitos diarios.",
+    "content": "La salud bucal es fundamental para una vida saludable. Estos cinco hábitos simples pueden cambiar tu sonrisa: cepillarse dos veces al día con técnica correcta, usar hilo dental diariamente, enjuagarse con agua después de las comidas, evitar bebidas azucaradas y visitar al dentista regularmente.",
+    "author": "Dra. Rivera",
+    "date": "2024-01-15"
+  },
+  {
+    "id": 2,
+    "title": "Ortodoncia Invisible: ¿Es adecuada para ti?",
+    "category": "Ortodoncia",
+    "image": "https://images.unsplash.com/photo-1576091160550-112173f7f869?w=400&h=250&fit=crop",
+    "excerpt": "Descubre cómo los alineadores transparentes revolucionan el allineamiento dental sin cambios visibles.",
+    "content": "La ortodoncia invisible utiliza alineadores transparentes que se cambian cada dos semanas para mover gradualmente los dientes. Es prácticamente imperceptible, removible para comer y cepillarse, y más cómoda que los brackets tradicionales. Perfecto para adultos que desean alineación sin comprometer su estética.",
+    "author": "Dra. Salsa",
+    "date": "2024-01-08"
+  },
+  {
+    "id": 3,
+    "title": "Implantes Dentales: Reemplazo permanente y natural",
+    "category": "Salud Bucal",
+    "image": "https://images.unsplash.com/photo-1606144242614-5c7ba2d63d1f?w=400&h=250&fit=crop",
+    "excerpt": "Los implantes dentales ofrecen la solución más duradera para dientes perdidos.",
+    "content": "Un implante dental es una raíz artificial de titanio que se inserta en el hueso maxilar para reemplazar un diente perdido. Tiene una durabilidad excepcional, requiere poco mantenimiento especial, y funciona y se ve como un diente natural. Es la opción ideal para restaurar tu sonrisa de forma permanente.",
+    "author": "Dr. Mendoza",
+    "date": "2024-01-05"
+  },
+  {
+    "id": 4,
+    "title": "Blanqueamiento Dental: Mitos y Realidades",
+    "category": "Consejos",
+    "image": "https://images.unsplash.com/photo-1588777041803-b4d01f4b9aa4?w=400&h=250&fit=crop",
+    "excerpt": "¿Cuánto sabes realmente sobre el blanqueamiento dental? Desmintamos los mitos comunes.",
+    "content": "El blanqueamiento dental es seguro cuando se realiza correctamente. Los tratamientos profesionales utilizan concentraciones controladas y protegen las encías. Contrario a lo que muchos creen, no daña permanentemente el esmalte si se realiza responsablemente. Los resultados duran más con buen mantenimiento bucal.",
+    "author": "Dr. López",
+    "date": "2024-01-02"
+  },
+  {
+    "id": 5,
+    "title": "La importancia de la salud gingival en la salud general",
+    "category": "Salud Bucal",
+    "image": "https://images.unsplash.com/photo-1607613774556-b169b8e9e49c?w=400&h=250&fit=crop",
+    "excerpt": "Las encías sanas son la base de una sonrisa duradera y salud general óptima.",
+    "content": "La enfermedad gingival está relacionada con enfermedades cardiovasculares, diabetes y complicaciones del embarazo. Mantener encías sanas mediante higiene bucal adecuada y chequeos regulares es fundamental para tu bienestar general. Un especialista en periodoncia puede ayudarte a prevenir y tratar problemas gingivales.",
+    "author": "Dra. Castro",
+    "date": "2023-12-30"
+  },
+  {
+    "id": 6,
+    "title": "Primera visita al dentista: Guía para padres",
+    "category": "Higiene Dental",
+    "image": "https://images.unsplash.com/photo-1576091160550-112173f7f869?w=400&h=250&fit=crop",
+    "excerpt": "Convierte la experiencia dental de tu hijo en una aventura positiva desde el inicio.",
+    "content": "La primera visita al dentista debe ser alrededor de los 3 años o cuando el niño tiene su primera dentición completa. Acércalo al consultorio de forma natural, sin crear expectativas negativas. Un odontólogo pediátrico sabe cómo comunicarse con niños y crear un ambiente seguro y divertido para futuros chequeos.",
+    "author": "Dra. Belén",
+    "date": "2023-12-28"
+  },
+  {
+    "id": 7,
+    "title": "Endodoncia: Salvar tu diente, no perderlo",
+    "category": "Consejo",
+    "image": "https://images.unsplash.com/photo-1612353322853-6f3db2291c00?w=400&h=250&fit=crop",
+    "excerpt": "Descubre cómo la endodoncia preserva tus dientes naturales con éxito.",
+    "content": "Cuando la pulpa dental se infecta o inflama, la endodoncia (tratamiento de conducto) puede salvar el diente. Con tecnología moderna y anestesia efectiva, el procedimiento es indoloro. Un diente endodonciado puede durar toda la vida con el cuidado adecuado.",
+    "author": "Dr. Sosa",
+    "date": "2023-12-25"
+  },
+  {
+    "id": 8,
+    "title": "Alimentos que fortalecen tus dientes naturalmente",
+    "category": "Consejos",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=250&fit=crop",
+    "excerpt": "Descubre qué alimentos ayudan a mantener tus dientes fuertes y saludables.",
+    "content": "La leche, queso y yogur son ricos en calcio y fortalecen el esmalte. Las frutas y verduras fibrosas limpian naturalmente mientras masticas. El agua fluorada es excelente para la remineralización. Manzanas, zanahorias y apio son especialmente beneficiosos para la salud gingival.",
+    "author": "Dra. Torres",
+    "date": "2023-12-22"
+  },
+  {
+    "id": 9,
+    "title": "Gingivitis: Cómo detectarla y tratarla",
+    "category": "Salud Bucal",
+    "image": "https://images.unsplash.com/photo-1576091160550-112173f7f869?w=400&h=250&fit=crop",
+    "excerpt": "Los primeros signos de gingivitis y cómo revertirla antes de que avance.",
+    "content": "La gingivitis se presenta con encías inflamadas, enrojecidas y que sangran al cepillarse. Es reversible con higiene bucal mejorada y eliminación de placa. Si no se trata, puede convertirse en periodontitis, que es más grave. Consulta a un especialista si notas estos síntomas.",
+    "author": "Dra. Elena",
+    "date": "2023-12-20"
+  },
+  {
+    "id": 10,
+    "title": "Brackets o Invisibles: ¿Cuál elegir?",
+    "category": "Ortodoncia",
+    "image": "https://images.unsplash.com/photo-1609840013074-7cffcbf47b35?w=400&h=250&fit=crop",
+    "excerpt": "Comparación completa entre brackets tradicionales y alineadores invisibles.",
+    "content": "Los brackets son más visibles pero ofrecen resultados muy efectivos. Los alineadores invisibles son discretos pero requieren disciplina en el uso. Brackets ofrecen más opciones de precio. Invisibles son más cómodos pero más costosos. La decisión depende de tus prioridades estéticas, presupuesto y compromiso.",
+    "author": "Dra. Rodríguez",
+    "date": "2023-12-18"
+  },
+  {
+    "id": 11,
+    "title": "Fluoruro dental: Beneficios y cantidad segura",
+    "category": "Higiene Dental",
+    "image": "https://images.unsplash.com/photo-1588777041803-b4d01f4b9aa4?w=400&h=250&fit=crop",
+    "excerpt": "El fluoruro es seguro y esencial para prevenir caries cuando se usa correctamente.",
+    "content": "El fluoruro fortalece el esmalte dental haciéndolo más resistente a las caries. Se puede obtener de pasta dental, enjuagues y agua fluorada. La cantidad recomendada varía según la edad. Consulta con tu dentista sobre la dosis apropiada para ti y tu familia.",
+    "author": "Dr. Vargas",
+    "date": "2023-12-15"
+  },
+  {
+    "id": 12,
+    "title": "Diseño de Sonrisa: Transformación con tecnología 3D",
+    "category": "Estética",
+    "image": "https://images.unsplash.com/photo-1583154459309-1373ae7bc85f?w=400&h=250&fit=crop",
+    "excerpt": "Visualiza tu nueva sonrisa antes de comenzar el tratamiento con tecnología 3D.",
+    "content": "El diseño digital de sonrisa permite ver cómo se verá tu sonrisa después del tratamiento. Utilizamos escaneo 3D para analizar proporciones y crear un plan personalizado. Esto garantiza resultados predecibles y satisface las expectativas estéticas del paciente antes de comenzar cualquier procedimiento.",
+    "author": "Dr. Felipe",
+    "date": "2023-12-12"
+  }
+]
