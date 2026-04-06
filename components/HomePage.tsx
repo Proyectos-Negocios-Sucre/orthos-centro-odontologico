@@ -1,27 +1,27 @@
-'use client'
+"use client";
 
-import { useState } from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
-import { ChevronRight } from 'lucide-react'
-import { FaFacebook, FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa'
-import Button from './Button'
-import Modal from './Modal'
-import ServiceCard from './ServiceCard'
-import ArticleCard from './ArticleCard'
-import StatCard from './StatCard'
-import { Service, Article } from '@/types'
-import { ROUTES, PAGINATION } from '@/utils/constants'
-import services from '@/data/services.json'
-import articles from '@/data/articles.json'
-import statistics from '@/data/statistics.json'
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { ChevronRight } from "lucide-react";
+import { FaFacebook, FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
+import Button from "./Button";
+import Modal from "./Modal";
+import ServiceCard from "./ServiceCard";
+import ArticleCard from "./ArticleCard";
+import StatCard from "./StatCard";
+import { Service, Article } from "@/types";
+import { ROUTES, PAGINATION } from "@/utils/constants";
+import services from "@/data/services.json";
+import articles from "@/data/articles.json";
+import statistics from "@/data/statistics.json";
 
 export default function HomePage() {
-  const [selectedService, setSelectedService] = useState<Service | null>(null)
-  const [selectedArticle, setSelectedArticle] = useState<Article | null>(null)
+  const [selectedService, setSelectedService] = useState<Service | null>(null);
+  const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
 
-  const featuredServices = services.slice(0, 4)
-  const featuredArticles = articles.slice(0, 3)
+  const featuredServices = services.slice(0, 4);
+  const featuredArticles = articles.slice(0, 3);
 
   return (
     <>
@@ -33,7 +33,12 @@ export default function HomePage() {
             viewBox="0 0 100 100"
             preserveAspectRatio="none"
           >
-            <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+            <pattern
+              id="grid"
+              width="20"
+              height="20"
+              patternUnits="userSpaceOnUse"
+            >
               <path
                 d="M 20 0 L 0 0 0 20"
                 fill="none"
@@ -53,11 +58,13 @@ export default function HomePage() {
                 Sonriendo a Salud Bucal
               </div>
               <h1 className="text-5xl md:text-6xl font-bold mb-4 text-pretty">
-                Tu Sonrisa,<br />
+                Tu Sonrisa,
+                <br />
                 <span className="text-secondary">Nuestra Pasión</span>
               </h1>
               <p className="text-lg text-blue-100 mb-6">
-                Especialistas en Ortodoncia y Estética Dental. Tecnología de vanguardia con trato humano excepcional.
+                Especialistas en Ortodoncia y Estética Dental. Tecnología de
+                vanguardia con trato humano excepcional.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href={ROUTES.CONTACT}>
@@ -66,10 +73,7 @@ export default function HomePage() {
                   </Button>
                 </Link>
                 <Link href={ROUTES.SERVICES}>
-                  <Button
-                    variant="secondary"
-                    size="lg"
-                  >
+                  <Button variant="secondary" size="lg">
                     Nuestros Servicios
                   </Button>
                 </Link>
@@ -147,14 +151,15 @@ export default function HomePage() {
       </section>
 
       {/* Featured Services Section */}
-      <section className="py-12 md:py-20 bg-gradient-to-br from-gray-50 to-gray-100 dark:bg-gray-900">
+      <section className="py-12 md:py-20 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4 dark:text-blue-100">
               Servicios Destacados
             </h2>
             <p className="text-text-light dark:text-gray-400 text-lg">
-              Contamos con un equipo especializado para ofrecerte las mejores soluciones
+              Contamos con un equipo especializado para ofrecerte las mejores
+              soluciones
             </p>
           </div>
 
@@ -172,7 +177,10 @@ export default function HomePage() {
             <Link href={ROUTES.SERVICES}>
               <Button variant="primary" size="lg" className="group">
                 Ver Todos los Servicios
-                <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                <ChevronRight
+                  size={20}
+                  className="group-hover:translate-x-1 transition-transform"
+                />
               </Button>
             </Link>
           </div>
@@ -201,7 +209,10 @@ export default function HomePage() {
             <Link href={ROUTES.TIPS}>
               <Button variant="primary" size="lg" className="group">
                 Ver Más Artículos
-                <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                <ChevronRight
+                  size={20}
+                  className="group-hover:translate-x-1 transition-transform"
+                />
               </Button>
             </Link>
           </div>
@@ -211,9 +222,12 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="py-12 md:py-16 bg-primary text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">¿Aún tienes dudas?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            ¿Aún tienes dudas?
+          </h2>
           <p className="text-lg text-blue-100 mb-8">
-            Nuestro equipo de expertos está listo para brindarte la atención personalizada que mereces
+            Nuestro equipo de expertos está listo para brindarte la atención
+            personalizada que mereces
           </p>
           <Link href={ROUTES.CONTACT}>
             <Button variant="secondary" size="lg">
@@ -251,5 +265,6 @@ export default function HomePage() {
         )}
       </Modal>
     </>
-  )
+  );
 }
+

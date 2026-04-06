@@ -1,17 +1,13 @@
 'use client'
 
-import { FaPhone, FaEnvelope, FaClock } from 'react-icons/fa'
+import { FaPhone, FaEnvelope, FaClock, FaFacebookF, FaTiktok, FaMapMarkerAlt } from 'react-icons/fa'
 import contactInfo from '@/data/contact-info.json'
 
 export default function TopBar() {
   return (
-    <div className="bg-primary text-white py-3 px-4">
+    <div className="bg-primary text-white py-2 px-4">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-sm">
         {/* Phone */}
-        <div className="flex items-center gap-2">
-          <FaPhone size={16} />
-          <span>{contactInfo.phone}</span>
-        </div>
 
         {/* Email */}
         <div className="flex items-center gap-2">
@@ -19,10 +15,41 @@ export default function TopBar() {
           <span>{contactInfo.email}</span>
         </div>
 
+        <div className="flex items-center gap-2">
+          <FaPhone size={16} />
+          <span>{contactInfo.phone}</span>
+        </div>
         {/* Hours */}
         <div className="flex items-center gap-2">
           <FaClock size={16} />
           <span>Lun - Vie: 8:00 - 18:00</span>
+          <div className="flex items-center gap-3 ml-4">
+            <a
+              href={contactInfo.social.facebook || '#'}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              className="hover:text-gray-200"
+            >
+              <FaFacebookF size={16} />
+            </a>
+            <a
+              href={contactInfo.social.tiktok || '#'}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TikTok"
+              className="hover:text-gray-200"
+            >
+              <FaTiktok size={16} />
+            </a>
+          </div>
+
+          <div className="flex items-center gap-2 ml-4">
+            <FaMapMarkerAlt size={16} />
+            <a href={contactInfo.url_maps} target="_blank" rel="noopener noreferrer">
+              Ir a Mapa
+            </a>
+          </div>
         </div>
       </div>
     </div>

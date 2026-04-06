@@ -1,176 +1,216 @@
-import Link from 'next/link'
-import { FaFacebook, FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa'
-import { ROUTES } from '@/utils/constants'
-import contactInfo from '@/data/contact-info.json'
+import Link from "next/link";
+import Image from "next/image";
+import { FaFacebook, FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
+import { FiMapPin, FiMail, FiPhone, FiClock } from "react-icons/fi";
+import { ROUTES } from "@/utils/constants";
+import contactInfo from "@/data/contact-info.json";
 
 export default function Footer() {
+  const social = contactInfo?.social ?? {};
+
   return (
-    <footer className="bg-gradient-to-b from-primary to-gray-900 text-white py-12 md:py-16">
+    <footer className="bg-[#1f5760] text-white pt-12 md:pt-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Logo & Description */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-primary font-bold">
-                O
+            <div className="flex items-center space-x-4 mb-4">
+              <div className="w-28">
+                <Image
+                  src="/logo.png"
+                  alt="Orthos logo"
+                  width={160}
+                  height={48}
+                  className="object-contain"
+                />
               </div>
-              <h3 className="text-lg font-bold">Orthos</h3>
             </div>
-            <p className="text-sm text-blue-100">
-              Excelencia en odontología moderna. Cuidamos tus sonrisas con experiencia y tecnología de punta.
+            <p className="text-sm text-white/90">
+              Prestamos servicios de calidad con técnicas constantemente
+              actualizadas, utilizando tecnología de vanguardia en materiales y
+              equipos.
             </p>
-            <div className="flex space-x-3 mt-4">
+
+            <h5 className="mt-6 mb-2 text-sm font-semibold">Síguenos en:</h5>
+            <div className="flex items-center space-x-3 mt-2">
               <a
-                href={contactInfo.social.facebook}
+                href={social.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-secondary transition-colors"
                 aria-label="Facebook"
+                className="w-10 h-10 flex items-center justify-center bg-white/10 rounded-md border border-white/10 hover:bg-white/20 transition"
               >
-                <FaFacebook size={20} />
+                <FaFacebook size={18} />
               </a>
               <a
-                href={contactInfo.social.instagram}
+                href={social.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-secondary transition-colors"
                 aria-label="Instagram"
+                className="w-10 h-10 flex items-center justify-center bg-white/10 rounded-md border border-white/10 hover:bg-white/20 transition"
               >
-                <FaInstagram size={20} />
+                <FaInstagram size={18} />
               </a>
               <a
-                href={contactInfo.social.tiktok}
+                href={social.tiktok}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-secondary transition-colors"
                 aria-label="TikTok"
+                className="w-10 h-10 flex items-center justify-center bg-white/10 rounded-md border border-white/10 hover:bg-white/20 transition"
               >
-                <FaTiktok size={20} />
+                <FaTiktok size={18} />
               </a>
               <a
-                href={contactInfo.social.whatsapp}
+                href={social.whatsapp}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-secondary transition-colors"
                 aria-label="WhatsApp"
+                className="w-10 h-10 flex items-center justify-center bg-white/10 rounded-md border border-white/10 hover:bg-white/20 transition"
               >
-                <FaWhatsapp size={20} />
+                <FaWhatsapp size={18} />
               </a>
             </div>
           </div>
 
-          {/* Navigation */}
+          {/* Contact */}
+          <div>
+            <h4 className="text-lg font-semibold mb-4">CRO Central</h4>
+
+            <div className="flex items-start space-x-3 mb-3">
+              <span className="mt-1 text-white/90">
+                <FiMapPin />
+              </span>
+              <div>
+                <a
+                  href={contactInfo.url_maps}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-medium hover:underline"
+                >
+                  {contactInfo.address}
+                </a>
+                <div className="text-sm text-white/80 mt-1">
+                  Santa Cruz de la Sierra
+                </div>
+              </div>
+            </div>
+
+            <div className="flex items-start space-x-3 mb-3">
+              <span className="mt-1 text-white/90">
+                <FiMail />
+              </span>
+              <div className="text-sm text-white/90">
+                <a
+                  href={`mailto:${contactInfo.email}`}
+                  className="hover:underline"
+                >
+                  {contactInfo.email}
+                </a>
+              </div>
+            </div>
+
+            <div className="flex items-start space-x-3 mb-3">
+              <span className="mt-1 text-white/90">
+                <FiPhone />
+              </span>
+              <div className="text-sm text-white/90">
+                <a
+                  href={`tel:${contactInfo.phone.replace(/\s+/g, "")}`}
+                  className="hover:underline"
+                >
+                  {contactInfo.phone}
+                </a>
+                <div className="text-sm text-white/80">
+                  Whatsapp: {contactInfo.whatsapp}
+                </div>
+              </div>
+            </div>
+
+            <div className="flex items-start space-x-3">
+              <span className="mt-1 text-white/90">
+                <FiClock />
+              </span>
+              <div className="text-sm text-white/90">
+                <div>Horario:</div>
+                <div className="text-sm text-white/80">
+                  {contactInfo.hours?.weekday}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Navegación */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Navegación</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link
-                  href={ROUTES.HOME}
-                  className="hover:text-secondary transition-colors"
-                >
+                <Link href={ROUTES.HOME} className="hover:underline">
                   Inicio
                 </Link>
               </li>
               <li>
-                <Link
-                  href={ROUTES.ABOUT}
-                  className="hover:text-secondary transition-colors"
-                >
+                <Link href={ROUTES.ABOUT} className="hover:underline">
                   Nosotros
                 </Link>
               </li>
               <li>
-                <Link
-                  href={ROUTES.SERVICES}
-                  className="hover:text-secondary transition-colors"
-                >
+                <Link href={ROUTES.SERVICES} className="hover:underline">
                   Servicios
                 </Link>
               </li>
               <li>
-                <Link
-                  href={ROUTES.TIPS}
-                  className="hover:text-secondary transition-colors"
-                >
+                <Link href={ROUTES.TIPS} className="hover:underline">
                   Tips & Salud
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href={ROUTES.PROFESSIONALS}
-                  className="hover:text-secondary transition-colors"
-                >
-                  Profesionales
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href={ROUTES.CONTACT}
-                  className="hover:text-secondary transition-colors"
-                >
-                  Contactos
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Especialidades */}
+          {/* Especialidades / Legal */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Especialidades</h4>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-2 text-sm mb-4">
               <li>
-                <a href="#ortodoncia" className="hover:text-secondary transition-colors">
+                <a href="#ortodoncia" className="hover:underline">
                   Ortodoncia
                 </a>
               </li>
               <li>
-                <a href="#implantologia" className="hover:text-secondary transition-colors">
+                <a href="#implantologia" className="hover:underline">
                   Implantología
                 </a>
               </li>
               <li>
-                <a href="#estetica" className="hover:text-secondary transition-colors">
+                <a href="#estetica" className="hover:underline">
                   Estética Dental
                 </a>
               </li>
-              <li>
-                <a href="#blanqueamiento" className="hover:text-secondary transition-colors">
-                  Blanqueamiento
-                </a>
-              </li>
             </ul>
-          </div>
 
-          {/* Legal */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Legal</h4>
+            <h4 className="text-lg font-semibold mb-3">Legal</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#privacy" className="hover:text-secondary transition-colors">
+                <a href="#privacy" className="hover:underline">
                   Privacidad
                 </a>
               </li>
               <li>
-                <a href="#terms" className="hover:text-secondary transition-colors">
+                <a href="#terms" className="hover:underline">
                   Términos
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="hover:text-secondary transition-colors">
-                  Contactos
                 </a>
               </li>
             </ul>
           </div>
         </div>
+      </div>
 
-        {/* Divider */}
-        <div className="border-t border-blue-400 pt-8">
-          <p className="text-center text-sm text-blue-100">
-            © 2024 Orthos Centro Odontológico. Todos los derechos reservados.
-          </p>
+      {/* Bottom bar full width */}
+      <div className="w-full bg-[#13393f] py-6">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-white/80">
+          © { new Date().getFullYear() } Orthos Centro Odontológico. Todos los derechos reservados.
         </div>
       </div>
     </footer>
-  )
+  );
 }
+
