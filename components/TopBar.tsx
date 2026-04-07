@@ -18,7 +18,7 @@ export default function TopBar() {
         <div className="hidden sm:flex flex-row justify-between items-center gap-4 text-sm">
           {/* Email */}
           <div className="flex items-center gap-2">
-            <FaEnvelope size={14} />
+            <FaEnvelope size={16} />
             <span>{contactInfo.email}</span>
           </div>
 
@@ -29,14 +29,14 @@ export default function TopBar() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-gray-200 transition-colors"
             >
-              <FaWhatsapp size={14} />
+              <FaWhatsapp size={16} />
               <span>{contactInfo.phone}</span>
             </a>
           </div>
 
           {/* Hours */}
           <div className="flex items-center gap-2">
-            <FaClock size={14} />
+            <FaClock size={16} />
             <div className="overflow-hidden">
               <div className="animate-scroll whitespace-nowrap">
                 Lun - Vie: 8:00 - 18:00 • Sábado: 9:00 - 13:00 • Lun - Vie: 8:00
@@ -51,7 +51,7 @@ export default function TopBar() {
                 aria-label="Facebook"
                 className="hover:text-gray-200"
               >
-                <FaFacebookF size={14} />
+                <FaFacebookF size={16} />
               </a>
               <a
                 href={contactInfo.social.tiktok || "#"}
@@ -60,12 +60,12 @@ export default function TopBar() {
                 aria-label="TikTok"
                 className="hover:text-gray-200"
               >
-                <FaTiktok size={14} />
+                <FaTiktok size={16} />
               </a>
             </div>
 
             <div className="flex items-center gap-2 ml-4">
-              <FaMapMarkerAlt size={14} />
+              <FaMapMarkerAlt size={16} />
               <a
                 href={contactInfo.url_maps}
                 target="_blank"
@@ -86,7 +86,7 @@ export default function TopBar() {
               href={`mailto:${contactInfo.email}`}
               className="flex items-center gap-1 hover:text-gray-200 transition-colors text-xs"
             >
-              <FaEnvelope size={14} />
+              <FaEnvelope size={16} />
               <span>Enviar Mail</span>
             </a>
 
@@ -97,7 +97,7 @@ export default function TopBar() {
               rel="noopener noreferrer"
               className="flex items-center gap-1 hover:text-gray-200 transition-colors text-xs"
             >
-              <FaWhatsapp size={14} />
+              <FaWhatsapp size={16} />
               <span>{contactInfo.phone}</span>
             </a>
 
@@ -108,7 +108,7 @@ export default function TopBar() {
               rel="noopener noreferrer"
               className="flex items-center gap-1 hover:text-gray-200 transition-colors text-xs"
             >
-              <FaMapMarkerAlt size={14} />
+              <FaMapMarkerAlt size={16} />
               <span>Ir a Mapa</span>
             </a>
           </div>
@@ -117,7 +117,7 @@ export default function TopBar() {
           <div className="flex justify-between items-center gap-2 py-1">
             {/* Hours with Scrolling Effect */}
             <div className="flex items-center gap-1 overflow-hidden flex-1">
-              <FaClock size={14} className="shrink-0" />
+              <FaClock size={16} className="shrink-0" />
               <div className="overflow-hidden flex-1">
                 <div className="animate-scroll whitespace-nowrap text-xs">
                   Lun - Vie: 8:00 - 18:00 • Sábado: 9:00 - 13:00 • Lun - Vie:
@@ -133,9 +133,9 @@ export default function TopBar() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
-                className="hover:text-gray-200 transition-colors"
+                className="hover:text-gray-200 transition-colors pr-1"
               >
-                <FaFacebookF size={12} />
+                <FaFacebookF size={16} />
               </a>
               <a
                 href={contactInfo.social.tiktok || "#"}
@@ -144,7 +144,7 @@ export default function TopBar() {
                 aria-label="TikTok"
                 className="hover:text-gray-200 transition-colors"
               >
-                <FaTiktok size={12} />
+                <FaTiktok size={16} />
               </a>
             </div>
           </div>
