@@ -1,12 +1,12 @@
-'use client'
+"use client";
 
-import Image from 'next/image'
-import Link from 'next/link'
-import { FaBullseye, FaEye, FaStar, FaHeart, FaTrophy } from 'react-icons/fa'
-import Button from '@/components/Button'
-import StatCard from '@/components/StatCard'
-import { ROUTES } from '@/utils/constants'
-import statistics from '@/data/statistics.json'
+import Image from "next/image";
+import Link from "next/link";
+import { FaBullseye, FaEye, FaStar, FaHeart, FaTrophy } from "react-icons/fa";
+import Button from "@/components/Button";
+import StatCard from "@/components/StatCard";
+import { ROUTES } from "@/utils/constants";
+import statistics from "@/data/statistics.json";
 
 export default function AboutPage() {
   return (
@@ -24,17 +24,23 @@ export default function AboutPage() {
       </section>
 
       {/* Story Section */}
-      <section className="py-12 md:py-20 bg-white dark:bg-gray-950">
+      <section className="py-12 md:py-20 bg-white dark:bg-gray-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
               Donde la precisión se une con la calidez humana
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4 text-lg leading-relaxed">
-              Desde nuestra fundación en Orthos Centro Odontológico, hemos buscado redefinir la experiencia dental. No somos solo una clínica; somos un atelier de salud donde cada sonrisa cuenta una historia.
+              Desde nuestra fundación en Orthos Centro Odontológico, hemos
+              buscado redefinir la experiencia dental. No somos solo una
+              clínica; somos un atelier de salud donde cada sonrisa cuenta una
+              historia.
             </p>
             <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-              Nuestro compromiso es combinar la tecnología más avanzada con el cuidado excepcional que cada paciente merece. Cada procedimiento es realizado con la precisión quirúrgica de una clínica y la calidez de un taller de autor.
+              Nuestro compromiso es combinar la tecnología más avanzada con el
+              cuidado excepcional que cada paciente merece. Cada procedimiento
+              es realizado con la precisión quirúrgica de una clínica y la
+              calidez de un taller de autor.
             </p>
           </div>
         </div>
@@ -48,10 +54,15 @@ export default function AboutPage() {
             <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md border dark:border-gray-700">
               <div className="flex items-center gap-3 mb-4">
                 <FaBullseye className="text-3xl text-primary" />
-                <h3 className="text-2xl font-bold text-primary">Nuestra Misión</h3>
+                <h3 className="text-2xl font-bold text-primary">
+                  Nuestra Misión
+                </h3>
               </div>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                Transformar la vida de nuestros pacientes a través de una odontología de vanguardia, contrapesada en el bimensual integral, la innovación constante y la construcción de la confianza mutua y la honestidad clínica.
+                Transformar la vida de nuestros pacientes a través de una
+                odontología de vanguardia, contrapesada en el bimensual
+                integral, la innovación constante y la construcción de la
+                confianza mutua y la honestidad clínica.
               </p>
             </div>
 
@@ -59,10 +70,15 @@ export default function AboutPage() {
             <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md border dark:border-gray-700">
               <div className="flex items-center gap-3 mb-4">
                 <FaEye className="text-3xl text-primary" />
-                <h3 className="text-2xl font-bold text-primary">Nuestra Visión</h3>
+                <h3 className="text-2xl font-bold text-primary">
+                  Nuestra Visión
+                </h3>
               </div>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                Ser la referencia dentológica con excelencia clínica y calidez humana, integrados los últimos avances tecnológicos con un trato excepcional que inspire a las personas a cuidar su salud bucal como prioridad de vida.
+                Ser la referencia dentológica con excelencia clínica y calidez
+                humana, integrados los últimos avances tecnológicos con un trato
+                excepcional que inspire a las personas a cuidar su salud bucal
+                como prioridad de vida.
               </p>
             </div>
           </div>
@@ -70,7 +86,7 @@ export default function AboutPage() {
           {/* Image Section */}
           <div className="relative h-96 rounded-lg overflow-hidden shadow-lg mb-12">
             <Image
-              src="https://images.unsplash.com/photo-1631217314983-eb7ede60b971?w=800&h=600&fit=crop"
+              src="/mision.jpg"
               alt="Consultorio Orthos"
               fill
               className="object-cover"
@@ -80,7 +96,9 @@ export default function AboutPage() {
 
           {/* Values */}
           <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md border dark:border-gray-700">
-            <h3 className="text-2xl font-bold text-primary mb-6">Nuestros Valores Fundamentales</h3>
+            <h3 className="text-2xl font-bold text-primary mb-6">
+              Nuestros Valores Fundamentales
+            </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div>
                 <div className="flex items-center gap-3 mb-3">
@@ -88,7 +106,9 @@ export default function AboutPage() {
                   <h4 className="font-semibold text-lg">Integridad Ética</h4>
                 </div>
                 <p className="text-sm text-gray-600 dark:text-gray-300">
-                  Mantenemos altos estándares éticos en cada diagnóstico, recomendación y tratamiento, asegurando que el paciente reciba exactamente lo que necesita.
+                  Mantenemos altos estándares éticos en cada diagnóstico,
+                  recomendación y tratamiento, asegurando que el paciente reciba
+                  exactamente lo que necesita.
                 </p>
               </div>
               <div>
@@ -97,7 +117,9 @@ export default function AboutPage() {
                   <h4 className="font-semibold text-lg">Empatía Humana</h4>
                 </div>
                 <p className="text-sm text-gray-600 dark:text-gray-300">
-                  Entendemos ampliamente y valoramos los sentimientos y necesidades de cada paciente. Escuchamos atentamente para ofrecer un entorno seguro, libre de ansiedad y miedo.
+                  Entendemos ampliamente y valoramos los sentimientos y
+                  necesidades de cada paciente. Escuchamos atentamente para
+                  ofrecer un entorno seguro, libre de ansiedad y miedo.
                 </p>
               </div>
               <div>
@@ -106,7 +128,9 @@ export default function AboutPage() {
                   <h4 className="font-semibold text-lg">Excelencia Clínica</h4>
                 </div>
                 <p className="text-sm text-gray-600 dark:text-gray-300">
-                  Buscamos constantemente combatir los límites de nuestra práctica profesional. Nuestro equipo se capacita continuamente en las técnicas más avanzadas.
+                  Buscamos constantemente combatir los límites de nuestra
+                  práctica profesional. Nuestro equipo se capacita continuamente
+                  en las técnicas más avanzadas.
                 </p>
               </div>
             </div>
@@ -115,7 +139,7 @@ export default function AboutPage() {
       </section>
 
       {/* Statistics */}
-      <section className="py-12 md:py-20 bg-white dark:bg-gray-950">
+      <section className="py-12 md:py-20 bg-white dark:bg-gray-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
@@ -138,7 +162,8 @@ export default function AboutPage() {
               Conoce Nuestro Equipo
             </h2>
             <p className="text-gray-600 dark:text-gray-400 text-lg max-w-2xl mx-auto">
-              Un equipo de profesionales certificados y apasionados por transformar sonrisas
+              Un equipo de profesionales certificados y apasionados por
+              transformar sonrisas
             </p>
           </div>
           <div className="text-center">
@@ -151,5 +176,6 @@ export default function AboutPage() {
         </div>
       </section>
     </>
-  )
+  );
 }
+

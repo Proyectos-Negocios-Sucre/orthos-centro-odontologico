@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Ortodoncia",
     "icon": "Smile",
-    "image": "https://images.unsplash.com/photo-1606144242614-5c7ba2d63d1f?w=500&h=300&fit=crop",
+    "image": "/ortodoncia.jpg",
     "shortDescription": "Alineación dental avanzada con las últimas técnicas",
     "fullDescription": "La ortodoncia es la especialidad que se encarga de corregir la posición de los dientes y las bases óseas. Contamos con técnicas modernas como brackets tradicionales e invisibles para lograr la sonrisa perfecta.",
     "price": "Consultar"
@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Implantología",
     "icon": "Zap",
-    "image": "https://images.unsplash.com/photo-1609840013074-7cffcbf47b35?w=500&h=300&fit=crop",
+    "image": "/implantologia.jpg",
     "shortDescription": "Recupera la funcionalidad y estética de tu sonrisa",
     "fullDescription": "Los implantes dentales son la solución más moderna y duradera para reemplazar dientes perdidos. Ofrecemos implantes de la más alta calidad con garantía a largo plazo.",
     "price": "Consultar"
@@ -21,7 +21,7 @@
     "id": 3,
     "name": "Estética Dental",
     "icon": "Sparkles",
-    "image": "https://images.unsplash.com/photo-1583154459309-1373ae7bc85f?w=500&h=300&fit=crop",
+    "image": "/estetica.jpeg",
     "shortDescription": "Diseño de sonrisa personalizado y tratamientos estéticos",
     "fullDescription": "Mejora el aspecto de tu sonrisa con nuestros tratamientos estéticos. Desde carillas de porcelana hasta blanqueamiento profesional, transformamos tu sonrisa.",
     "price": "Consultar"
@@ -30,7 +30,7 @@
     "id": 4,
     "name": "Limpieza Dental",
     "icon": "Droplet",
-    "image": "https://images.unsplash.com/photo-1607613774556-b169b8e9e49c?w=500&h=300&fit=crop",
+    "image": "/limpieza.jpeg",
     "shortDescription": "Profilaxis profunda para mantener tus encías sanas",
     "fullDescription": "La limpieza profunda mantiene tus encías sanas y previene enfermedades periodontales. Realizamos tratamientos con técnicas microscópicas de vanguardia.",
     "price": "Consultar"
@@ -39,7 +39,7 @@
     "id": 5,
     "name": "Blanqueamiento",
     "icon": "Moon",
-    "image": "https://images.unsplash.com/photo-1576091160550-112173f7f869?w=500&h=300&fit=crop",
+    "image": "/implantologia.jpg",
     "shortDescription": "Aclara el tono de tus dientes de forma segura y rápida",
     "fullDescription": "Nuestro blanqueamiento dental utiliza la tecnología LED más avanzada para resultados visibles en una sola sesión. Seguro y efectivo.",
     "price": "Consultar"
@@ -48,7 +48,7 @@
     "id": 6,
     "name": "Endodoncia",
     "icon": "Heart",
-    "image": "https://images.unsplash.com/photo-1579154204601-01d299d386d3?w=500&h=300&fit=crop",
+    "image": "/implantologia.jpg",
     "shortDescription": "Tratamiento de conducto para salvar tus piezas dentales",
     "fullDescription": "La endodoncia salva dientes que de otra manera serían perdidos. Nuestros especialistas utilizan tecnología rotativa de última generación.",
     "price": "Consultar"
@@ -57,7 +57,7 @@
     "id": 7,
     "name": "Odontopediatría",
     "icon": "Baby",
-    "image": "https://images.unsplash.com/photo-1611428425726-5e3a9bf4e82b?w=500&h=300&fit=crop",
+    "image": "/implantologia.jpg",
     "shortDescription": "Cuidado dental especializado para niños",
     "fullDescription": "Atención odontológica especializada para los más pequeños en un ambiente cómodo y seguro. Formamos hábitos saludables desde temprana edad.",
     "price": "Consultar"
@@ -66,7 +66,7 @@
     "id": 8,
     "name": "Periodoncia",
     "icon": "Shield",
-    "image": "https://images.unsplash.com/photo-1588777041803-b4d01f4b9aa4?w=500&h=300&fit=crop",
+    "image": "/implantologia.jpg",
     "shortDescription": "Tratamiento especializado de encías y hueso",
     "fullDescription": "Cuidamos la salud de tus encías y estructuras de soporte. Tratamientos preventivos y curativos con las mejores técnicas.",
     "price": "Consultar"
@@ -75,7 +75,7 @@
     "id": 9,
     "name": "Rehabilitación Oral",
     "icon": "Wrench",
-    "image": "https://images.unsplash.com/photo-1606318281623-430c63602a2d?w=500&h=300&fit=crop",
+    "image": "/implantologia.jpg",
     "shortDescription": "Reconstrucción completa de la función masticatoria",
     "fullDescription": "Rehabilitamos completamente la función masticatoria mediante tratamientos integrales que combinan varias especialidades.",
     "price": "Consultar"

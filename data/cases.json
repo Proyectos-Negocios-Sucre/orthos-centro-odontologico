@@ -1,62 +1,63 @@
 [
   {
     "id": 1,
-    "name": "Ortodoncia - Corrección de Mordida",
+    "procedure": "Ortodoncia - Corrección de Mordida",
     "treatment": "ORTODONCIA CONVENCIONAL",
-    "imageBefore": "https://images.unsplash.com/photo-1612349317228-47fa634d76f3?w=600&h=500&fit=crop",
-    "imageAfter": "https://images.unsplash.com/photo-1598866594230-b6461fd6dec0?w=600&h=500&fit=crop",
+    "beforeImage": "/antes.jpg",
+    "afterImage": "/despues.jpg",
     "description": "Corrección completa de alineamiento y mordida con brackets convencionales en 24 meses",
     "specialist": "Dra. María Rodríguez",
     "duration": "24 meses"
   },
   {
     "id": 2,
-    "name": "Rehabilitación Oral Integral",
+    "procedure": "Rehabilitación Oral Integral",
     "treatment": "IMPLANTOLOGÍA AVANZADA",
-    "imageBefore": "https://images.unsplash.com/photo-1585112114955-4da5b56f29aa?w=600&h=500&fit=crop",
-    "imageAfter": "https://images.unsplash.com/photo-1598866594230-b6461fd6dec0?w=600&h=500&fit=crop",
+    "beforeImage": "/antes.jpg",
+    "afterImage": "/despues.jpg",
     "description": "Reconstrucción de arcada dental superior con implantes y coronas cerámicas",
     "specialist": "Dr. Juan Méndez",
     "duration": "18 meses"
   },
   {
     "id": 3,
-    "name": "Blanqueamiento Láser",
+    "procedure": "Blanqueamiento Láser",
     "treatment": "ESTÉTICA DENTAL",
-    "imageBefore": "https://images.unsplash.com/photo-1612349317228-47fa634d76f3?w=600&h=500&fit=crop",
-    "imageAfter": "https://images.unsplash.com/photo-1598866594230-b6461fd6dec0?w=600&h=500&fit=crop",
+    "beforeImage": "/antes.jpg",
+    "afterImage": "/despues.jpg",
     "description": "Clareamiento de dientes mediante tecnología LED en una sola sesión con resultados visibles",
     "specialist": "Dra. María Rodríguez",
     "duration": "1 sesión"
   },
   {
     "id": 4,
-    "name": "Implantes Múltiples",
+    "procedure": "Implantes Múltiples",
     "treatment": "CIRUGÍA MAXILOFACIAL",
-    "imageBefore": "https://images.unsplash.com/photo-1585112114955-4da5b56f29aa?w=600&h=500&fit=crop",
-    "imageAfter": "https://images.unsplash.com/photo-1598866594230-b6461fd6dec0?w=600&h=500&fit=crop",
+    "beforeImage": "/antes.jpg",
+    "afterImage": "/despues.jpg",
     "description": "Instalación y estética de cuatro implantes inmediatos con restitución funcional completa",
     "specialist": "Dr. Juan Méndez",
     "duration": "12 meses"
   },
   {
     "id": 5,
-    "name": "Diseño de Sonrisa 3D",
+    "procedure": "Diseño de Sonrisa 3D",
     "treatment": "DISEÑO DE SONRISA",
-    "imageBefore": "https://images.unsplash.com/photo-1612349317228-47fa634d76f3?w=600&h=500&fit=crop",
-    "imageAfter": "https://images.unsplash.com/photo-1598866594230-b6461fd6dec0?w=600&h=500&fit=crop",
+    "beforeImage": "/antes.jpg",
+    "afterImage": "/despues.jpg",
     "description": "Transformación estética total mediante carillas de porcelana con diseño digital personalizado",
     "specialist": "Dra. María Rodríguez",
     "duration": "8 semanas"
   },
   {
     "id": 6,
-    "name": "Ortodoncia Invisible",
+    "procedure": "Ortodoncia Invisible",
     "treatment": "ALINEADORES INVISIBLES",
-    "imageBefore": "https://images.unsplash.com/photo-1585112114955-4da5b56f29aa?w=600&h=500&fit=crop",
-    "imageAfter": "https://images.unsplash.com/photo-1598866594230-b6461fd6dec0?w=600&h=500&fit=crop",
+    "beforeImage": "/antes.jpg",
+    "afterImage": "/despues.jpg",
     "description": "Alineamiento discreto con alineadores transparentes sin cambios visibles",
     "specialist": "Dra. María Rodríguez",
     "duration": "16 meses"
   }
 ]
+

@@ -26,28 +26,24 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-primary to-primary/80 text-white py-16 md:py-24 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <svg
-            className="w-full h-full"
-            viewBox="0 0 100 100"
-            preserveAspectRatio="none"
-          >
-            <pattern
-              id="grid"
-              width="20"
-              height="20"
-              patternUnits="userSpaceOnUse"
-            >
-              <path
-                d="M 20 0 L 0 0 0 20"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="0.5"
-              />
-            </pattern>
-            <rect width="100" height="100" fill="url(#grid)" />
-          </svg>
+      <section className="relative text-white py-16 md:py-24 overflow-hidden">
+        {/* Background image (full section) */}
+        <div className="absolute inset-0 -z-20">
+          <Image
+            src="/banner.png"
+            alt="Banner background"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
+
+        {/* Overlay: oscurece y difumina ligeramente el fondo para mejorar legibilidad */}
+        <div className="absolute inset-0 -z-10">
+          <div
+            className="absolute inset-0 bg-black/40 backdrop-blur-sm"
+            aria-hidden="true"
+          />
         </div>
 
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -120,22 +116,14 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Image */}
-            <div className="relative h-64 md:h-96">
-              <Image
-                src="https://images.unsplash.com/photo-1606144242614-5c7ba2d63d1f?w=600&h=400&fit=crop"
-                alt="Consultorio dental moderno"
-                fill
-                className="object-cover rounded-lg"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-            </div>
+            {/* Imagen de fondo usada como background - se elimina imagen duplicada en la columna */}
+            <div />
           </div>
         </div>
       </section>
 
       {/* Statistics Section */}
-      <section className="py-12 md:py-16 bg-white dark:bg-gray-950">
+      <section className="py-12 md:py-16 bg-white dark:bg-gray-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
@@ -188,7 +176,7 @@ export default function HomePage() {
       </section>
 
       {/* Latest Articles Section */}
-      <section className="py-12 md:py-20 bg-white dark:bg-gray-950 border-t border-gray-200 dark:border-gray-800">
+      <section className="py-12 md:py-20 bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">

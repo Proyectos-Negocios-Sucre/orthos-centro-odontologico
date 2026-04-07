@@ -15,9 +15,9 @@ export default function Footer() {
           {/* Logo & Description */}
           <div>
             <div className="flex items-center space-x-4 mb-4">
-              <div className="w-28">
+              <div className="w-32">
                 <Image
-                  src="/logo.png"
+                  src="/logo2.png"
                   alt="Orthos logo"
                   width={160}
                   height={48}

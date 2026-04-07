@@ -1,17 +1,19 @@
-'use client'
+"use client";
 
-import { useState } from 'react'
-import ProfessionalCardExpanded from '@/components/ProfessionalCardExpanded'
-import { PAGINATION } from '@/utils/constants'
-import professionals from '@/data/professionals.json'
+import { useState } from "react";
+import ProfessionalCardExpanded from "@/components/ProfessionalCardExpanded";
+import { PAGINATION } from "@/utils/constants";
+import professionals from "@/data/professionals.json";
 
 export default function ProfessionalsPage() {
-  const [currentPage, setCurrentPage] = useState(1)
+  const [currentPage, setCurrentPage] = useState(1);
 
-  const totalPages = Math.ceil(professionals.length / PAGINATION.PROFESSIONALS_PER_PAGE)
-  const startIdx = (currentPage - 1) * PAGINATION.PROFESSIONALS_PER_PAGE
-  const endIdx = startIdx + PAGINATION.PROFESSIONALS_PER_PAGE
-  const currentProfessionals = professionals.slice(startIdx, endIdx)
+  const totalPages = Math.ceil(
+    professionals.length / PAGINATION.PROFESSIONALS_PER_PAGE,
+  );
+  const startIdx = (currentPage - 1) * PAGINATION.PROFESSIONALS_PER_PAGE;
+  const endIdx = startIdx + PAGINATION.PROFESSIONALS_PER_PAGE;
+  const currentProfessionals = professionals.slice(startIdx, endIdx);
 
   return (
     <>
@@ -22,13 +24,14 @@ export default function ProfessionalsPage() {
             Nuestro Equipo
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Profesionales dedicados a transformar sonrisas con la precisión quirúrgica de una clínica y la calidez de un taller de autor
+            Profesionales dedicados a transformar sonrisas con la precisión
+            quirúrgica de una clínica y la calidez de un taller de autor
           </p>
         </div>
       </section>
 
       {/* Professionals Grid */}
-      <section className="py-12 md:py-20 bg-white dark:bg-gray-950">
+      <section className="py-12 md:py-20 bg-white dark:bg-gray-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 mb-12">
             {currentProfessionals.map((professional) => (
@@ -55,8 +58,8 @@ export default function ProfessionalsPage() {
                 onClick={() => setCurrentPage(page)}
                 className={`w-10 h-10 rounded-lg font-semibold transition-all ${
                   currentPage === page
-                    ? 'bg-primary text-white'
-                    : 'border border-primary text-primary hover:bg-primary hover:text-white'
+                    ? "bg-primary text-white"
+                    : "border border-primary text-primary hover:bg-primary hover:text-white"
                 }`}
               >
                 {page}
@@ -64,7 +67,9 @@ export default function ProfessionalsPage() {
             ))}
 
             <button
-              onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
+              onClick={() =>
+                setCurrentPage(Math.min(totalPages, currentPage + 1))
+              }
               disabled={currentPage === totalPages}
               className="px-4 py-2 rounded-lg border border-primary text-primary hover:bg-primary hover:text-white disabled:opacity-50 transition-all"
             >
@@ -73,7 +78,7 @@ export default function ProfessionalsPage() {
           </div>
         </div>
       </section>
-
     </>
-  )
+  );
 }
+
