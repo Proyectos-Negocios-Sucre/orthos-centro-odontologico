@@ -86,7 +86,7 @@ export default function Navbar() {
               aria-label="Toggle dark mode"
             >
               {isDark ? (
-                <FaSun size={18} className="text-yellow-400" />
+                <FaSun size={18} className="text-gray-100" />
               ) : (
                 <FaMoon size={18} className="text-gray-500" />
               )}

@@ -52,11 +52,10 @@ export default function TipsSaludPage() {
   const endIdx = startIdx + PAGINATION.ARTICLES_PER_PAGE;
   const currentArticles = filteredArticles.slice(startIdx, endIdx);
 
-
   return (
     <>
       {/* Header */}
-      <section className="py-12 md:py-16 bg-light-bg dark:bg-gray-900">
+      <section className="py-12 md:py-16 bg-linear-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-8">
             <div className="inline-block bg-secondary/10 border border-secondary text-secondary px-4 py-2 rounded-full text-sm font-semibold mb-4 uppercase">
@@ -183,8 +182,9 @@ export default function TipsSaludPage() {
         title={selectedArticle?.title}
       >
         {selectedArticle && (
-          <div className="space-y-6">
-            <div className="relative h-64 w-full rounded-lg overflow-hidden">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+            {/* Image */}
+            <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
               <Image
                 src={selectedArticle.image}
                 alt={selectedArticle.title}
@@ -192,15 +192,16 @@ export default function TipsSaludPage() {
                 className="object-cover"
               />
             </div>
-            <div className="space-y-4">
-              <div className="inline-block bg-primary text-white px-3 py-1 rounded-full text-xs font-semibold uppercase">
+            {/* Content */}
+            <div className="flex flex-col justify-start space-y-4">
+              <div className="inline-block bg-primary text-white px-3 py-1 rounded-full text-xs font-semibold uppercase w-fit">
                 {selectedArticle.category}
               </div>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                 {selectedArticle.excerpt}
               </p>
               <div className="bg-light-bg dark:bg-gray-800 p-4 rounded-lg border-l-4 border-primary">
-                <p className="text-gray-600 dark:text-gray-300">
+                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
                   {selectedArticle.content ||
                     "Contenido completo del artículo..."}
                 </p>

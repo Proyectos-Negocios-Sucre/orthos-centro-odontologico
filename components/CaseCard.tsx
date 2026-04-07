@@ -46,8 +46,8 @@ export default function CaseCard({ clinicalCase, onViewMore }: CaseCardProps) {
     >
       {/* Images Container - render condicional */}
       {activeImage === "both" ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-          <div className="relative h-64 md:h-80 group">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-0">
+          <div className="relative h-48 md:h-80 group">
             <Image
               src={clinicalCase.beforeImage}
               alt="Antes"
@@ -58,7 +58,7 @@ export default function CaseCard({ clinicalCase, onViewMore }: CaseCardProps) {
               Antes
             </div>
           </div>
-          <div className="relative h-64 md:h-80 group">
+          <div className="relative h-48 md:h-80 group">
             <Image
               src={clinicalCase.afterImage}
               alt="Después"
@@ -71,7 +71,7 @@ export default function CaseCard({ clinicalCase, onViewMore }: CaseCardProps) {
           </div>
         </div>
       ) : activeImage === "before" ? (
-        <div className="relative h-64 md:h-80 group">
+        <div className="relative h-48 md:h-80 group w-full">
           <Image
             src={clinicalCase.beforeImage}
             alt="Antes"
@@ -83,7 +83,7 @@ export default function CaseCard({ clinicalCase, onViewMore }: CaseCardProps) {
           </div>
         </div>
       ) : (
-        <div className="relative h-64 md:h-80 group">
+        <div className="relative h-48 md:h-80 group w-full">
           <Image
             src={clinicalCase.afterImage}
             alt="Después"

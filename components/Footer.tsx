@@ -74,7 +74,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">CRO Central</h4>
+            <h4 className="text-lg font-semibold mb-4">Contáctanos</h4>
 
             <div className="flex items-start space-x-3 mb-3">
               <span className="mt-1 text-white/90">
@@ -89,9 +89,6 @@ export default function Footer() {
                 >
                   {contactInfo.address}
                 </a>
-                <div className="text-sm text-white/80 mt-1">
-                  Santa Cruz de la Sierra
-                </div>
               </div>
             </div>
 
@@ -111,7 +108,7 @@ export default function Footer() {
 
             <div className="flex items-start space-x-3 mb-3">
               <span className="mt-1 text-white/90">
-                <FiPhone />
+                <FaWhatsapp />
               </span>
               <div className="text-sm text-white/90">
                 <a
@@ -120,9 +117,6 @@ export default function Footer() {
                 >
                   {contactInfo.phone}
                 </a>
-                <div className="text-sm text-white/80">
-                  Whatsapp: {contactInfo.whatsapp}
-                </div>
               </div>
             </div>
 
@@ -166,40 +160,31 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Especialidades / Legal */}
+          {/* Ubicación - Mapa */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Especialidades</h4>
-            <ul className="space-y-2 text-sm mb-4">
-              <li>
-                <a href="#ortodoncia" className="hover:underline">
-                  Ortodoncia
+            <h4 className="text-lg font-semibold mb-4">Ubicación</h4>
+            <div className="rounded-md overflow-hidden border border-white/20 shadow-lg">
+              <iframe
+                title="Mapa - Orthos Centro Odontológico"
+                src={`https://www.google.com/maps?q=${encodeURIComponent(
+                  contactInfo.address || "",
+                )}&output=embed`}
+                className="w-full h-48 border-0"
+                loading="lazy"
+              />
+            </div>
+            {contactInfo.url_maps && (
+              <div className="mt-3 text-sm">
+                <a
+                  href={contactInfo.url_maps}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/90 hover:underline font-medium"
+                >
+                  Ver en Google Maps →
                 </a>
-              </li>
-              <li>
-                <a href="#implantologia" className="hover:underline">
-                  Implantología
-                </a>
-              </li>
-              <li>
-                <a href="#estetica" className="hover:underline">
-                  Estética Dental
-                </a>
-              </li>
-            </ul>
-
-            <h4 className="text-lg font-semibold mb-3">Legal</h4>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a href="#privacy" className="hover:underline">
-                  Privacidad
-                </a>
-              </li>
-              <li>
-                <a href="#terms" className="hover:underline">
-                  Términos
-                </a>
-              </li>
-            </ul>
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -207,7 +192,8 @@ export default function Footer() {
       {/* Bottom bar full width */}
       <div className="w-full bg-[#13393f] py-6">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-white/80">
-          © { new Date().getFullYear() } Orthos Centro Odontológico. Todos los derechos reservados.
+          © {new Date().getFullYear()} Orthos Centro Odontológico. Todos los
+          derechos reservados.
         </div>
       </div>
     </footer>

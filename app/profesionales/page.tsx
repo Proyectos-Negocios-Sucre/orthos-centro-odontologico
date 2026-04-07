@@ -18,7 +18,7 @@ export default function ProfessionalsPage() {
   return (
     <>
       {/* Header */}
-      <section className="py-12 md:py-16 bg-light-bg dark:bg-gray-900">
+      <section className="py-12 md:py-16 bg-linear-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
             Nuestro Equipo

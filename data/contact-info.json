@@ -1,22 +1,23 @@
 {
-  "address": "Av. Las Palmeras #123, Edificio Los Ólivos, Planta Baja, Santa Cruz de la Sierra",
-  "phone": "+591 76821922",
-  "url_maps": "https://goo.gl/maps/orthoscentro",
-  "whatsapp": "+591 76821922",
-  "whatsapp_me": "http://wa.me/+59176821922",
-  "email": "contacto@orthoscentro.com",
+  "address": "German Busch N°320, Sucre - Bolivia",
+  "phone": "+591 68646423",
+  "url_maps": "https://maps.app.goo.gl/H51eZGPaVcAaEMqK9",
+  "whatsapp": "+591 68646423",
+  "whatsapp_me": "http://wa.me/+59168646423",
+  "email": "kareniporre20@gmail.com",
   "hours": {
     "weekday": "8:00 AM - 6:00 PM",
     "saturday": "9:00 AM - 2:00 PM",
     "sunday": "Cerrado"
   },
-  "latitude": -17.7833,
-  "longitude": -63.1821,
+  "latitude": -19.033755258018168,
+  "longitude": -65.25963041733193,
   "social": {
-    "facebook": "https://facebook.com/orthoscentro",
+    "facebook": "https://www.facebook.com/profile.php?id=100072075984566",
     "instagram": "https://instagram.com/orthoscentro",
     "tiktok": "https://tiktok.com/@orthoscentro",
     "whatsapp": "https://wa.me/591700012345",
-    "email": "mailto:contacto@orthoscentro.com"
+    "email": "mailto:kareniporre20@gmail.com"
   }
 }
+

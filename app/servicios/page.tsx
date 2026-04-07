@@ -1,10 +1,9 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { FaSearch, FaWhatsapp } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 import Button from "@/components/Button";
 import Modal from "@/components/Modal";
 import ServiceCard from "@/components/ServiceCard";
@@ -33,7 +32,7 @@ export default function ServicesPage() {
   return (
     <>
       {/* Header */}
-      <section className="py-12 md:py-16 bg-light-bg dark:bg-gray-900">
+      <section className="py-12 md:py-16 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
             Nuestros Servicios

@@ -41,7 +41,7 @@ export default function HomePage() {
         {/* Overlay: oscurece y difumina ligeramente el fondo para mejorar legibilidad */}
         <div className="absolute inset-0 -z-10">
           <div
-            className="absolute inset-0 bg-black/40 backdrop-blur-sm"
+            className="absolute inset-0 bg-black/30 backdrop-blur-sm"
             aria-hidden="true"
           />
         </div>
@@ -50,26 +50,39 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             {/* Text Content */}
             <div>
-              <div className="inline-block bg-secondary/20 border border-secondary text-secondary px-4 py-2 rounded-full text-sm font-semibold mb-4 uppercase">
-                Sonriendo a Salud Bucal
+              <div className="inline-block bg-white/10 border border-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4 uppercase shadow-sm backdrop-blur-sm">
+                Protegemos tu Salud Bucal
               </div>
               <h1 className="text-5xl md:text-6xl font-bold mb-4 text-pretty">
                 Tu Sonrisa,
                 <br />
-                <span className="text-secondary">Nuestra Pasión</span>
+                <span className="text-orange-500/90">Nuestra Pasión</span>
               </h1>
               <p className="text-lg text-blue-100 mb-6">
                 Especialistas en Ortodoncia y Estética Dental. Tecnología de
                 vanguardia con trato humano excepcional.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
                 <Link href={ROUTES.CONTACT}>
-                  <Button variant="secondary" size="lg">
+                  <Button
+                    variant="primary"
+                    size="lg"
+                    className="group flex items-center gap-3 px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                  >
                     Agendar Cita
+                    <ChevronRight
+                      size={18}
+                      className="transform transition-transform group-hover:translate-x-1"
+                    />
                   </Button>
                 </Link>
+
                 <Link href={ROUTES.SERVICES}>
-                  <Button variant="secondary" size="lg">
+                  <Button
+                    variant="secondary"
+                    size="lg"
+                    className=" cursor-pointer flex items-center gap-3 px-6 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white/90 border border-white/20 transition-colors"
+                  >
                     Nuestros Servicios
                   </Button>
                 </Link>
@@ -127,7 +140,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-              15 años cuidando sonrisas
+              5+ años cuidando sonrisas
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -139,7 +152,7 @@ export default function HomePage() {
       </section>
 
       {/* Featured Services Section */}
-      <section className="py-12 md:py-20 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
+      <section className="py-12 md:py-20 bg-linear-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4 dark:text-blue-100">
@@ -189,7 +202,11 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             {featuredArticles.map((article) => (
-              <ArticleCard key={article.id} article={article} />
+              <ArticleCard
+                key={article.id}
+                article={article}
+                onReadMore={setSelectedArticle}
+              />
             ))}
           </div>
 
@@ -232,8 +249,9 @@ export default function HomePage() {
         title={selectedService?.name}
       >
         {selectedService && (
-          <div>
-            <div className="relative h-48 w-full mb-6 rounded-lg overflow-hidden">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+            {/* Image */}
+            <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
               <Image
                 src={selectedService.image}
                 alt={selectedService.name}
@@ -241,14 +259,51 @@ export default function HomePage() {
                 className="object-cover"
               />
             </div>
-            <p className="text-gray-700 dark:text-gray-300 mb-6 text-lg leading-relaxed">
-              {selectedService.fullDescription}
-            </p>
-            <Link href={ROUTES.CONTACT}>
-              <Button variant="secondary" size="lg" className="w-full">
-                Agendar Cita
-              </Button>
-            </Link>
+            {/* Content */}
+            <div className="flex flex-col justify-start">
+              <p className="text-gray-700 dark:text-gray-300 mb-6 text-base leading-relaxed">
+                {selectedService.fullDescription}
+              </p>
+              <Link href={ROUTES.CONTACT}>
+                <Button variant="secondary" size="lg" className="w-full">
+                  Agendar Cita
+                </Button>
+              </Link>
+            </div>
+          </div>
+        )}
+      </Modal>
+
+      {/* Article Modal */}
+      <Modal
+        isOpen={!!selectedArticle}
+        onClose={() => setSelectedArticle(null)}
+        title={selectedArticle?.title}
+      >
+        {selectedArticle && (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+            {/* Image */}
+            {selectedArticle.image && (
+              <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
+                <Image
+                  src={selectedArticle.image}
+                  alt={selectedArticle.title}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            )}
+            {/* Content */}
+            <div className="flex flex-col justify-start">
+              <div className="mb-4">
+                <span className="inline-block bg-primary text-white px-3 py-1 rounded-full text-xs font-semibold uppercase">
+                  {selectedArticle.category}
+                </span>
+              </div>
+              <p className="text-gray-700 dark:text-gray-300 text-base leading-relaxed">
+                {selectedArticle.content || selectedArticle.excerpt}
+              </p>
+            </div>
           </div>
         )}
       </Modal>

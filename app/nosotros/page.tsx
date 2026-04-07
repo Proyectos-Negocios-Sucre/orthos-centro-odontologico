@@ -12,7 +12,7 @@ export default function AboutPage() {
   return (
     <>
       {/* Header */}
-      <section className="py-12 md:py-16 bg-light-bg dark:bg-gray-900">
+      <section className="py-12 md:py-16 bg-linear-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
             Quiénes Somos
@@ -139,11 +139,11 @@ export default function AboutPage() {
       </section>
 
       {/* Statistics */}
-      <section className="py-12 md:py-20 bg-white dark:bg-gray-800">
+      <section className="py-12 md:py-20 bg-linear-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-              15 años cuidando sonrisas
+              5+ años cuidando sonrisas
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -155,23 +155,29 @@ export default function AboutPage() {
       </section>
 
       {/* Team Section */}
-      <section className="py-12 md:py-20 bg-light-bg dark:bg-gray-900">
+      <section className="py-12 md:py-16 bg-light-bg dark:bg-gray-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-              Conoce Nuestro Equipo
-            </h2>
-            <p className="text-gray-600 dark:text-gray-400 text-lg max-w-2xl mx-auto">
-              Un equipo de profesionales certificados y apasionados por
-              transformar sonrisas
-            </p>
-          </div>
-          <div className="text-center">
-            <Link href={ROUTES.PROFESSIONALS}>
-              <Button variant="primary" size="lg">
-                Ver Profesionales
-              </Button>
-            </Link>
+          <div className="bg-linear-to-r from-primary to-primary/80 text-white p-6 rounded-lg shadow-md">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+              <div className="flex-1 text-center md:text-left">
+                <h2 className="text-2xl md:text-3xl font-bold mb-2">
+                  Conoce Nuestro Equipo
+                </h2>
+                <p className="text-white/80 text-sm md:text-base">
+                  Un equipo de profesionales certificados y apasionados por
+                  transformar sonrisas
+                </p>
+              </div>
+
+              <div className="flex gap-3 flex-col sm:flex-row shrink-0 w-full md:w-auto">
+                <Link
+                  href={ROUTES.PROFESSIONALS}
+                  className="px-4 py-2 border border-white/30 rounded-lg bg-white/10 hover:bg-white/20 transition-all font-medium text-white text-center text-sm inline-block"
+                >
+                  Ver Profesionales
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description: 'Especialistas en ortodoncia y estética dental. Tecnología avanzada y trato humano excepcional.',
   generator: 'v0.app',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/icon2.png',
     apple: '/apple-icon.png',
   },
 }
