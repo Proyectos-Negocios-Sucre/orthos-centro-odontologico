@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Implantes Dentales y Rehabilitación",
     "icon": "Tooth",
-    "image": "/ser-implates.jpg",
+    "image": "/ser-implates.jpeg",
     "shortDescription": "Reemplazo permanente y funcional de piezas dentales perdidas.",
     "fullDescription": "Los implantes dentales permiten reemplazar dientes ausentes mediante estructuras de titanio biocompatible que se integran al hueso maxilar. Este tratamiento restaura tanto la función masticatoria como la estética facial. En Orthos combinamos planificación digital, cirugía guiada y rehabilitación protésica personalizada para garantizar resultados duraderos, seguros y naturales.",
     "price": "Consultar"
@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Ortodoncia Especializada",
     "icon": "Smile",
-    "image": "/ser-orotodoncia.jpg",
+    "image": "/ser-orotodoncia.jpeg",
     "shortDescription": "Corrección avanzada de alineación dental y mordida.",
     "fullDescription": "La ortodoncia especializada corrige malposiciones dentarias y alteraciones de mordida en niños, adolescentes y adultos. Ofrecemos brackets metálicos, estéticos y alineadores invisibles con planificación digital 3D. Nuestro enfoque no solo mejora la estética, sino también la función masticatoria, la salud periodontal y la armonía facial.",
     "price": "Consultar"
@@ -21,7 +21,7 @@
     "id": 3,
     "name": "Cirugía de Terceros Molares",
     "icon": "Scissors",
-    "image": "/ser-cirujia.jpg",
+    "image": "/ser-cirujia.jpeg",
     "shortDescription": "Extracción segura de muelas del juicio con técnica especializada.",
     "fullDescription": "La cirugía de terceros molares está indicada cuando las muelas del juicio causan dolor, infección o problemas de alineación. Realizamos procedimientos con diagnóstico radiográfico previo y técnicas quirúrgicas mínimamente invasivas para reducir inflamación y acelerar la recuperación. Nuestro equipo garantiza un manejo cuidadoso y seguimiento postoperatorio.",
     "price": "Consultar"
@@ -48,7 +48,7 @@
     "id": 6,
     "name": "Estética y Operatoria Dental",
     "icon": "Brush",
-    "image": "/ser-estetica.jpg",
+    "image": "/ser-estetica.jpeg",
     "shortDescription": "Restauraciones estéticas que preservan tu estructura dental.",
     "fullDescription": "La operatoria dental se enfoca en la restauración de dientes afectados por caries o fracturas mediante resinas estéticas de alta precisión. Nuestro objetivo es conservar la mayor cantidad de estructura dental sana posible, logrando resultados naturales y funcionales. También realizamos carillas y correcciones cosméticas para armonizar la sonrisa.",
     "price": "Consultar"

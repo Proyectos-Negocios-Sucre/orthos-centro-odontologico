@@ -31,7 +31,7 @@ export default function HomePage() {
         {/* Background image (full section) */}
         <div className="absolute inset-0 -z-20">
           <Image
-            src="/banner.png"
+            src="/banner.jpeg"
             alt="Banner background"
             fill
             className="object-cover"
