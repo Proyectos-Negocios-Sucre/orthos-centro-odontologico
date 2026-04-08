@@ -126,8 +126,10 @@ export default function Footer() {
               </span>
               <div className="text-sm text-white/90">
                 <div>Horario:</div>
-                <div className="text-sm text-white/80">
-                  {contactInfo.hours?.weekday}
+                <div className="text-sm text-white/80 space-y-1">
+                  <div>Lunes a Viernes: {contactInfo.hours?.weekday}</div>
+                  <div>Sábado: {contactInfo.hours?.saturday}</div>
+                  <div>Domingo: {contactInfo.hours?.sunday}</div>
                 </div>
               </div>
             </div>

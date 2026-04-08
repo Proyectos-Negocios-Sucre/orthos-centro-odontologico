@@ -120,10 +120,11 @@ export default function ContactPage() {
               </div>
               <p className="text-gray-600 dark:text-gray-400 mb-2">
                 <a
-                  href={`tel:${contactInfo.phone}`}
+                  href={`${contactInfo.whatsapp_me}`}
+                  target="_blank"
                   className="hover:text-primary transition-colors"
                 >
-                  {contactInfo.phone}
+                  {contactInfo.whatsapp}
                 </a>
               </p>
               <p className="text-gray-600 dark:text-gray-400">

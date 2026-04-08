@@ -39,8 +39,8 @@ export default function TopBar() {
             <FaClock size={16} />
             <div className="overflow-hidden">
               <div className="animate-scroll whitespace-nowrap">
-                Lun - Vie: 8:00 - 18:00 • Sábado: 9:00 - 13:00 • Lun - Vie: 8:00
-                - 18:00
+                Lun - Vie: {contactInfo.hours.weekday} • Sábado:{" "}
+                {contactInfo.hours.saturday} • Domingo: {contactInfo.hours.sunday}
               </div>
             </div>
             <div className="flex items-center gap-3 ml-4">
