@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef } from "react";
 import Image from "next/image";
 import { FaSearch, FaWhatsapp } from "react-icons/fa";
 import Button from "@/components/Button";
@@ -24,6 +24,24 @@ export default function TipsSaludPage() {
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
   const [searchTerm, setSearchTerm] = useState("");
+  const articlesGridRef = useRef<HTMLDivElement>(null);
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    // Scroll suave a la sección de cards con offset para el nav
+    setTimeout(() => {
+      if (articlesGridRef.current) {
+        const navHeight = 80; // Ajusta este valor según la altura de tu nav
+        const elementPosition = articlesGridRef.current.getBoundingClientRect().top + window.scrollY;
+        const offsetPosition = elementPosition - navHeight;
+        
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+      }
+    }, 50);
+  };
 
   const filteredArticles = useMemo(() => {
     let filtered = articles;
@@ -116,7 +134,7 @@ export default function TipsSaludPage() {
       {/* Articles Grid */}
       <section className="py-12 md:py-20 bg-white dark:bg-gray-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+          <div ref={articlesGridRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {currentArticles.length > 0 ? (
               currentArticles.map((article) => (
                 <ArticleCard
@@ -138,7 +156,7 @@ export default function TipsSaludPage() {
           {filteredArticles.length > PAGINATION.ARTICLES_PER_PAGE && (
             <div className="flex items-center justify-center gap-2 flex-wrap mb-12">
               <button
-                onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
+                onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
                 disabled={currentPage === 1}
                 className="px-4 py-2 rounded-lg border border-primary text-primary hover:bg-primary hover:text-white disabled:opacity-50 transition-all"
               >
@@ -149,7 +167,7 @@ export default function TipsSaludPage() {
                 (page) => (
                   <button
                     key={page}
-                    onClick={() => setCurrentPage(page)}
+                    onClick={() => handlePageChange(page)}
                     className={`w-10 h-10 rounded-lg font-semibold transition-all ${
                       currentPage === page
                         ? "bg-primary text-white"
@@ -163,7 +181,7 @@ export default function TipsSaludPage() {
 
               <button
                 onClick={() =>
-                  setCurrentPage(Math.min(totalPages, currentPage + 1))
+                  handlePageChange(Math.min(totalPages, currentPage + 1))
                 }
                 disabled={currentPage === totalPages}
                 className="px-4 py-2 rounded-lg border border-primary text-primary hover:bg-primary hover:text-white disabled:opacity-50 transition-all"
@@ -213,4 +231,3 @@ export default function TipsSaludPage() {
     </>
   );
 }
-
