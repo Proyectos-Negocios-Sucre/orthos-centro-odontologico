@@ -15,6 +15,7 @@ import { ROUTES, PAGINATION } from "@/utils/constants";
 import services from "@/data/services.json";
 import articles from "@/data/articles.json";
 import statistics from "@/data/statistics.json";
+import contact from "@/data/contact-info.json";
 
 export default function HomePage() {
   const [selectedService, setSelectedService] = useState<Service | null>(null);
@@ -41,13 +42,13 @@ export default function HomePage() {
         {/* Overlay: oscurece y difumina ligeramente el fondo para mejorar legibilidad */}
         <div className="absolute inset-0 -z-10">
           <div
-            className="absolute inset-0 bg-black/30 backdrop-blur-sm"
+            className="absolute inset-0 bg-black/30 backdrop-blur-[2px]"
             aria-hidden="true"
           />
         </div>
 
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 md:py-3">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-8 items-center">
             {/* Text Content */}
             <div>
               <div className="inline-block bg-white/10 border border-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4 uppercase shadow-sm backdrop-blur-sm">
@@ -63,17 +64,27 @@ export default function HomePage() {
                 vanguardia con trato humano excepcional.
               </p>
               <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
-                <Link href={ROUTES.CONTACT}>
+                <Link
+                  href={contact.whatsapp_me}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button
                     variant="primary"
                     size="lg"
                     className="group flex items-center gap-3 px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-shadow cursor-pointer"
                   >
+                    <FaWhatsapp size={24} className="text-gray-100" />
                     Agendar Cita
-                    <ChevronRight
-                      size={18}
-                      className="transform transition-transform group-hover:translate-x-1"
-                    />
+                  </Button>
+                </Link>
+                <Link href={ROUTES.CONTACT}>
+                  <Button
+                    variant="primary"
+                    size="lg"
+                    className=" cursor-pointer flex items-center gap-3 px-6 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white/90 border border-white/20 transition-colors"
+                  >
+                    Visitanos
                   </Button>
                 </Link>
 
@@ -89,7 +100,7 @@ export default function HomePage() {
               </div>
 
               {/* Social Icons */}
-              <div className="flex gap-4 mt-8">
+              <div className="flex gap-4 mt-8 justify-center md:justify-start">
                 <a
                   href="https://facebook.com"
                   target="_blank"
@@ -264,7 +275,7 @@ export default function HomePage() {
               <p className="text-gray-700 dark:text-gray-300 mb-6 text-base leading-relaxed">
                 {selectedService.fullDescription}
               </p>
-              <Link href={ROUTES.CONTACT}>
+              <Link href={contact.whatsapp_me} target="_blank">
                 <Button variant="secondary" size="lg" className="w-full">
                   Agendar Cita
                 </Button>

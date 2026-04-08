@@ -10,6 +10,7 @@ import ServiceCard from "@/components/ServiceCard";
 import { Service } from "@/types";
 import { ROUTES, PAGINATION } from "@/utils/constants";
 import services from "@/data/services.json";
+import contact from "@/data/contact-info.json";
 
 export default function ServicesPage() {
   const [selectedService, setSelectedService] = useState<Service | null>(null);
@@ -124,7 +125,7 @@ export default function ServicesPage() {
             Estamos listos para brindarte la mejor atención y ayudarte a lograr
             tu sonrisa ideal
           </p>
-          <Link href={ROUTES.CONTACT}>
+          <Link href={contact.whatsapp_me} target="_blank">
             <Button variant="secondary" size="lg">
               Agendar Cita
             </Button>
@@ -151,7 +152,7 @@ export default function ServicesPage() {
             <p className="text-gray-700 dark:text-gray-300 mb-6 text-lg leading-relaxed">
               {selectedService.fullDescription}
             </p>
-            <Link href={ROUTES.CONTACT}>
+            <Link href={contact.whatsapp_me} target="_blank">
               <Button variant="secondary" size="lg" className="w-full">
                 Agendar Cita
               </Button>

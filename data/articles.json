@@ -4,119 +4,199 @@
     "title": "5 hábitos para una sonrisa saludable cada mañana",
     "category": "Higiene Dental",
     "image": "/consejos.png",
-    "excerpt": "Descubre los secretos para mantener una sonrisa radiante con simples hábitos diarios.",
-    "content": "La salud bucal es fundamental para una vida saludable. Estos cinco hábitos simples pueden cambiar tu sonrisa: cepillarse dos veces al día con técnica correcta, usar hilo dental diariamente, enjuagarse con agua después de las comidas, evitar bebidas azucaradas y visitar al dentista regularmente.",
-    "author": "Dra. Rivera",
-    "date": "2024-01-15"
+    "excerpt": "Cinco hábitos fundamentales que protegen tu sonrisa desde el primer momento del día.",
+    "content": "Una sonrisa saludable comienza con disciplina diaria. Aquí tienes 5 hábitos esenciales:\n\n🪥 1. Cepillado correcto durante 2 minutos\nNo basta con cepillarse rápido. Usa movimientos suaves y circulares, inclinando el cepillo 45° hacia la encía. Esto elimina placa sin dañar el esmalte.\n\n🧵 2. Uso diario de hilo dental\nEl 40% de la superficie dental está entre los dientes. El hilo elimina restos y previene caries interdentales y gingivitis.\n\n💧 3. Enjuague bucal adecuado\nUtiliza un enjuague con flúor o recomendado por tu odontólogo para reforzar el esmalte y reducir bacterias.\n\n🥤 4. Evita bebidas azucaradas en ayunas\nLas bebidas ácidas o azucaradas debilitan el esmalte, especialmente en la mañana cuando la boca está más sensible.\n\n🦷 5. Control profesional cada 6 meses\nLas revisiones permiten detectar caries tempranas, sarro o inflamación antes de que se conviertan en problemas mayores.\n\nLa constancia marca la diferencia entre una sonrisa común y una sonrisa saludable a largo plazo.",
+    "author": "",
+    "date": ""
   },
   {
     "id": 2,
     "title": "Ortodoncia Invisible: ¿Es adecuada para ti?",
     "category": "Ortodoncia",
-    "image": "/consejos.png",
-    "excerpt": "Descubre cómo los alineadores transparentes revolucionan el allineamiento dental sin cambios visibles.",
-    "content": "La ortodoncia invisible utiliza alineadores transparentes que se cambian cada dos semanas para mover gradualmente los dientes. Es prácticamente imperceptible, removible para comer y cepillarse, y más cómoda que los brackets tradicionales. Perfecto para adultos que desean alineación sin comprometer su estética.",
-    "author": "Dra. Salsa",
-    "date": "2024-01-08"
+    "image": "/tip-ortodoncia.jpg",
+    "excerpt": "Descubre si los alineadores transparentes son la mejor opción para tu caso.",
+    "content": "La ortodoncia invisible utiliza alineadores transparentes personalizados que corrigen la posición dental progresivamente.\n\n✨ Ventajas principales:\n✔ Son prácticamente imperceptibles.\n✔ Se retiran para comer y cepillarse.\n✔ Son más cómodos que los brackets tradicionales.\n\n⚠ Requiere compromiso: deben usarse entre 20 y 22 horas al día para ser efectivos.\n\n👨‍⚕ Es ideal para adultos y adolescentes responsables que buscan una solución estética sin afectar su imagen profesional.\n\nCada caso es distinto, por eso es fundamental una evaluación clínica con escaneo digital previo.",
+    "author": "",
+    "date": ""
   },
   {
     "id": 3,
     "title": "Implantes Dentales: Reemplazo permanente y natural",
     "category": "Salud Bucal",
-    "image": "/consejos.png",
-    "excerpt": "Los implantes dentales ofrecen la solución más duradera para dientes perdidos.",
-    "content": "Un implante dental es una raíz artificial de titanio que se inserta en el hueso maxilar para reemplazar un diente perdido. Tiene una durabilidad excepcional, requiere poco mantenimiento especial, y funciona y se ve como un diente natural. Es la opción ideal para restaurar tu sonrisa de forma permanente.",
-    "author": "Dr. Mendoza",
-    "date": "2024-01-05"
+    "image": "/tip-salud-bucal.jpg",
+    "excerpt": "La solución más avanzada y duradera para dientes perdidos.",
+    "content": "Un implante dental reemplaza la raíz del diente mediante un tornillo de titanio biocompatible que se integra al hueso.\n\n🔩 Fase 1: Colocación del implante\nSe inserta en el hueso maxilar bajo anestesia local.\n\n🦴 Fase 2: Osteointegración\nEl implante se fusiona con el hueso en un proceso natural que puede tardar algunos meses.\n\n🦷 Fase 3: Colocación de la corona\nSe coloca una prótesis estética que luce y funciona como un diente natural.\n\nBeneficios:\n✔ Alta durabilidad\n✔ No afecta dientes vecinos\n✔ Mejora estética y función masticatoria\n\nEs la alternativa más estable frente a prótesis removibles.",
+    "author": "",
+    "date": ""
   },
   {
     "id": 4,
     "title": "Blanqueamiento Dental: Mitos y Realidades",
     "category": "Consejos",
-    "image": "/consejos.png",
-    "excerpt": "¿Cuánto sabes realmente sobre el blanqueamiento dental? Desmintamos los mitos comunes.",
-    "content": "El blanqueamiento dental es seguro cuando se realiza correctamente. Los tratamientos profesionales utilizan concentraciones controladas y protegen las encías. Contrario a lo que muchos creen, no daña permanentemente el esmalte si se realiza responsablemente. Los resultados duran más con buen mantenimiento bucal.",
-    "author": "Dr. López",
-    "date": "2024-01-02"
+    "image": "/tip-consejos.png",
+    "excerpt": "Aclara tus dudas sobre seguridad y resultados del blanqueamiento.",
+    "content": "El blanqueamiento dental profesional es un procedimiento seguro cuando es supervisado por un odontólogo.\n\n❌ Mito: Daña permanentemente el esmalte.\n✔ Realidad: Utiliza concentraciones controladas que no afectan la estructura dental.\n\n❌ Mito: Funciona igual en casa con remedios caseros.\n✔ Realidad: El bicarbonato o limón pueden desgastar el esmalte.\n\n💎 Resultados óptimos se logran combinando tratamiento clínico y mantenimiento adecuado.\n\nEvita alimentos pigmentantes durante las primeras 48 horas para prolongar el efecto.",
+    "author": "",
+    "date": ""
   },
   {
     "id": 5,
     "title": "La importancia de la salud gingival en la salud general",
     "category": "Salud Bucal",
-    "image": "/consejos.png",
-    "excerpt": "Las encías sanas son la base de una sonrisa duradera y salud general óptima.",
-    "content": "La enfermedad gingival está relacionada con enfermedades cardiovasculares, diabetes y complicaciones del embarazo. Mantener encías sanas mediante higiene bucal adecuada y chequeos regulares es fundamental para tu bienestar general. Un especialista en periodoncia puede ayudarte a prevenir y tratar problemas gingivales.",
-    "author": "Dra. Castro",
-    "date": "2023-12-30"
+    "image": "/tip-salud-bucal.jpg",
+    "excerpt": "Encías sanas, cuerpo sano: la conexión que muchos desconocen.",
+    "content": "La inflamación crónica de las encías puede influir en enfermedades sistémicas.\n\n❤️ Se asocia a enfermedades cardiovasculares.\n🩸 Puede complicar el control de la diabetes.\n🤰 Está vinculada a partos prematuros.\n\nSeñales de alerta:\n⚠ Sangrado al cepillarse\n⚠ Inflamación o mal aliento persistente\n\nLa prevención incluye higiene rigurosa, limpieza profesional periódica y evaluación periodontal especializada.",
+    "author": "",
+    "date": ""
   },
   {
     "id": 6,
     "title": "Primera visita al dentista: Guía para padres",
     "category": "Higiene Dental",
     "image": "/consejos.png",
-    "excerpt": "Convierte la experiencia dental de tu hijo en una aventura positiva desde el inicio.",
-    "content": "La primera visita al dentista debe ser alrededor de los 3 años o cuando el niño tiene su primera dentición completa. Acércalo al consultorio de forma natural, sin crear expectativas negativas. Un odontólogo pediátrico sabe cómo comunicarse con niños y crear un ambiente seguro y divertido para futuros chequeos.",
-    "author": "Dra. Belén",
-    "date": "2023-12-28"
+    "excerpt": "Cómo preparar a tu hijo para una experiencia dental positiva.",
+    "content": "La primera visita debe realizarse alrededor de los 3 años.\n\n👶 Consejos prácticos:\n✔ Evita usar palabras como “dolor” o “inyección”.\n✔ Presenta la consulta como algo positivo.\n✔ Elige un odontopediatra especializado.\n\nLa prevención temprana reduce el miedo y crea hábitos saludables desde la infancia.",
+    "author": "",
+    "date": ""
   },
   {
     "id": 7,
     "title": "Endodoncia: Salvar tu diente, no perderlo",
-    "category": "Consejo",
-    "image": "/consejos.png",
-    "excerpt": "Descubre cómo la endodoncia preserva tus dientes naturales con éxito.",
-    "content": "Cuando la pulpa dental se infecta o inflama, la endodoncia (tratamiento de conducto) puede salvar el diente. Con tecnología moderna y anestesia efectiva, el procedimiento es indoloro. Un diente endodonciado puede durar toda la vida con el cuidado adecuado.",
-    "author": "Dr. Sosa",
-    "date": "2023-12-25"
+    "category": "Consejos",
+    "image": "/tip-consejos.png",
+    "excerpt": "El tratamiento que elimina la infección sin extraer el diente.",
+    "content": "La endodoncia elimina la pulpa infectada y limpia los conductos radiculares.\n\n🔬 El procedimiento incluye:\n1. Anestesia local\n2. Limpieza interna del conducto\n3. Sellado hermético\n\nCon tecnología moderna, el tratamiento es prácticamente indoloro.\n\nCon una restauración adecuada, el diente puede durar muchos años más.",
+    "author": "",
+    "date": ""
   },
   {
     "id": 8,
     "title": "Alimentos que fortalecen tus dientes naturalmente",
     "category": "Consejos",
-    "image": "/consejos.png",
-    "excerpt": "Descubre qué alimentos ayudan a mantener tus dientes fuertes y saludables.",
-    "content": "La leche, queso y yogur son ricos en calcio y fortalecen el esmalte. Las frutas y verduras fibrosas limpian naturalmente mientras masticas. El agua fluorada es excelente para la remineralización. Manzanas, zanahorias y apio son especialmente beneficiosos para la salud gingival.",
-    "author": "Dra. Torres",
-    "date": "2023-12-22"
+    "image": "/tip-consejos.png",
+    "excerpt": "Incluye estos alimentos en tu dieta para proteger tu esmalte.",
+    "content": "Una dieta equilibrada impacta directamente en tu salud bucal.\n\n🥛 Lácteos: ricos en calcio y fósforo.\n🥕 Verduras crujientes: estimulan la producción de saliva.\n🍎 Manzanas: ayudan a limpiar superficies dentales.\n💧 Agua fluorada: favorece la remineralización.\n\nEvita consumo frecuente de azúcares refinados y bebidas ácidas.",
+    "author": "",
+    "date": ""
   },
   {
     "id": 9,
     "title": "Gingivitis: Cómo detectarla y tratarla",
     "category": "Salud Bucal",
-    "image": "/consejos.png",
-    "excerpt": "Los primeros signos de gingivitis y cómo revertirla antes de que avance.",
-    "content": "La gingivitis se presenta con encías inflamadas, enrojecidas y que sangran al cepillarse. Es reversible con higiene bucal mejorada y eliminación de placa. Si no se trata, puede convertirse en periodontitis, que es más grave. Consulta a un especialista si notas estos síntomas.",
-    "author": "Dra. Elena",
-    "date": "2023-12-20"
+    "image": "/tip-salud-bucal.jpg",
+    "excerpt": "Detectar a tiempo la gingivitis evita problemas mayores.",
+    "content": "La gingivitis es la inflamación inicial de las encías.\n\n🔎 Síntomas comunes:\n• Encías rojas\n• Sangrado\n• Sensibilidad\n\nEs reversible con:\n✔ Mejor técnica de cepillado\n✔ Uso de hilo dental\n✔ Limpieza profesional\n\nIgnorarla puede derivar en periodontitis, una condición más severa.",
+    "author": "",
+    "date": ""
   },
   {
     "id": 10,
     "title": "Brackets o Invisibles: ¿Cuál elegir?",
     "category": "Ortodoncia",
-    "image": "/consejos.png",
-    "excerpt": "Comparación completa entre brackets tradicionales y alineadores invisibles.",
-    "content": "Los brackets son más visibles pero ofrecen resultados muy efectivos. Los alineadores invisibles son discretos pero requieren disciplina en el uso. Brackets ofrecen más opciones de precio. Invisibles son más cómodos pero más costosos. La decisión depende de tus prioridades estéticas, presupuesto y compromiso.",
-    "author": "Dra. Rodríguez",
-    "date": "2023-12-18"
+    "image": "/tip-ortodoncia.jpg",
+    "excerpt": "Comparación clara para tomar la mejor decisión.",
+    "content": "Ambos tratamientos corrigen la alineación dental, pero presentan diferencias clave.\n\n🔩 Brackets:\n✔ Más económicos\n✔ Eficaces en casos complejos\n\n✨ Alineadores invisibles:\n✔ Más estéticos\n✔ Removibles\n✔ Más cómodos\n\nLa elección depende de tu diagnóstico clínico, presupuesto y disciplina en el uso.",
+    "author": "",
+    "date": ""
   },
-  {
+    {
     "id": 11,
     "title": "Fluoruro dental: Beneficios y cantidad segura",
     "category": "Higiene Dental",
     "image": "/consejos.png",
-    "excerpt": "El fluoruro es seguro y esencial para prevenir caries cuando se usa correctamente.",
-    "content": "El fluoruro fortalece el esmalte dental haciéndolo más resistente a las caries. Se puede obtener de pasta dental, enjuagues y agua fluorada. La cantidad recomendada varía según la edad. Consulta con tu dentista sobre la dosis apropiada para ti y tu familia.",
-    "author": "Dr. Vargas",
-    "date": "2023-12-15"
+    "excerpt": "El flúor es uno de los aliados más importantes contra la caries.",
+    "content": "El fluoruro fortalece el esmalte y ayuda a revertir lesiones tempranas de caries.\n\n🛡 ¿Cómo funciona?\nRefuerza la estructura del esmalte haciéndolo más resistente a los ácidos producidos por bacterias.\n\n👶 En niños: se recomienda usar pasta con flúor en cantidad adecuada según la edad.\n👨‍⚕ En adultos: puede complementarse con enjuagues o aplicaciones profesionales.\n\n⚠ El exceso no es recomendable, por eso siempre debe usarse bajo orientación profesional.\n\nEl flúor bien utilizado es una herramienta preventiva segura y eficaz.",
+    "author": "",
+    "date": ""
   },
   {
     "id": 12,
     "title": "Diseño de Sonrisa: Transformación con tecnología 3D",
     "category": "Estética",
     "image": "/consejos.png",
-    "excerpt": "Visualiza tu nueva sonrisa antes de comenzar el tratamiento con tecnología 3D.",
-    "content": "El diseño digital de sonrisa permite ver cómo se verá tu sonrisa después del tratamiento. Utilizamos escaneo 3D para analizar proporciones y crear un plan personalizado. Esto garantiza resultados predecibles y satisface las expectativas estéticas del paciente antes de comenzar cualquier procedimiento.",
-    "author": "Dr. Felipe",
-    "date": "2023-12-12"
+    "excerpt": "Visualiza tu nueva sonrisa antes de comenzar el tratamiento.",
+    "content": "El diseño digital de sonrisa permite planificar tratamientos estéticos con precisión.\n\n🖥 Se realiza un escaneo 3D de la boca.\n📐 Se analizan proporciones faciales.\n🦷 Se proyecta el resultado final antes de iniciar.\n\nBeneficios:\n✔ Resultados predecibles\n✔ Plan personalizado\n✔ Mayor satisfacción del paciente\n\nLa tecnología reduce la improvisación y aumenta la precisión estética.",
+    "author": "",
+    "date": ""
+  },
+  {
+    "id": 13,
+    "title": "Caries dental: Cómo prevenirla eficazmente",
+    "category": "Salud Bucal",
+    "image": "/tip-salud-bucal.jpg",
+    "excerpt": "La caries es prevenible con hábitos adecuados.",
+    "content": "La caries se produce cuando bacterias transforman azúcares en ácidos que desgastan el esmalte.\n\n🪥 Prevención clave:\n✔ Cepillado 2-3 veces al día\n✔ Uso diario de hilo dental\n✔ Pasta dental con flúor\n✔ Reducción del consumo de azúcares\n\n📅 Las revisiones periódicas permiten detectar lesiones incipientes antes de que requieran tratamientos invasivos.\n\nLa prevención siempre es menos costosa y más conservadora que la restauración.",
+    "author": "",
+    "date": ""
+  },
+  {
+    "id": 14,
+    "title": "Sensibilidad dental: Causas y soluciones",
+    "category": "Consejos",
+    "image": "/tip-consejos.png",
+    "excerpt": "Dolor al frío o calor puede indicar desgaste o retracción gingival.",
+    "content": "La sensibilidad dental ocurre cuando la dentina queda expuesta.\n\n❄ Síntomas: dolor breve al consumir frío, caliente o dulce.\n\n🔎 Causas comunes:\n• Cepillado agresivo\n• Retracción de encías\n• Desgaste del esmalte\n\n🛠 Soluciones:\n✔ Pastas desensibilizantes\n✔ Técnica de cepillado adecuada\n✔ Evaluación profesional para descartar caries o fracturas\n\nIgnorar la sensibilidad puede empeorar el problema.",
+    "author": "",
+    "date": ""
+  },
+  {
+    "id": 15,
+    "title": "Ortodoncia en adultos: Nunca es tarde",
+    "category": "Ortodoncia",
+    "image": "/tip-ortodoncia.jpg",
+    "excerpt": "Cada vez más adultos corrigen su sonrisa con excelentes resultados.",
+    "content": "La ortodoncia no tiene límite de edad.\n\n👔 Muchos adultos buscan mejorar estética y función.\n\nBeneficios:\n✔ Mejor alineación\n✔ Higiene más fácil\n✔ Prevención de desgaste irregular\n\nOpciones disponibles:\n🔩 Brackets estéticos\n✨ Alineadores invisibles\n\nUn diagnóstico adecuado determina el plan más eficiente.",
+    "author": "",
+    "date": ""
+  },
+  {
+    "id": 16,
+    "title": "Mal aliento (Halitosis): Cómo combatirlo",
+    "category": "Salud Bucal",
+    "image": "/tip-salud-bucal.jpg",
+    "excerpt": "La halitosis suele tener origen bucal y es tratable.",
+    "content": "El mal aliento generalmente se debe a acumulación bacteriana.\n\n🦠 Causas frecuentes:\n• Lengua con placa bacteriana\n• Caries\n• Enfermedad periodontal\n\n🪥 Soluciones:\n✔ Limpieza de lengua diaria\n✔ Hidratación adecuada\n✔ Evaluación odontológica\n\nSi persiste, puede requerir evaluación médica adicional.\n\nLa higiene integral es la mejor prevención.",
+    "author": "",
+    "date": ""
+  },
+  {
+    "id": 17,
+    "title": "Limpieza dental profesional: ¿Cada cuánto realizarla?",
+    "category": "Higiene Dental",
+    "image": "/consejos.png",
+    "excerpt": "Eliminar el sarro requiere intervención profesional.",
+    "content": "La profilaxis elimina placa endurecida (sarro) que no puede retirarse con cepillado común.\n\n📅 Frecuencia recomendada: cada 6 meses.\n\nBeneficios:\n✔ Previene gingivitis\n✔ Mejora estética\n✔ Reduce riesgo de caries\n\nEn pacientes con enfermedad periodontal puede requerirse mayor frecuencia.",
+    "author": "",
+    "date": ""
+  },
+  {
+    "id": 18,
+    "title": "Resinas estéticas: Restauraciones invisibles",
+    "category": "Estética",
+    "image": "/consejos.png",
+    "excerpt": "Reparaciones dentales que se integran naturalmente.",
+    "content": "Las resinas compuestas permiten restaurar dientes con caries o fracturas leves.\n\n🎨 Se adaptan al color natural del diente.\n🦷 Conservan mayor estructura dental.\n\nSon ideales para:\n✔ Caries pequeñas\n✔ Fracturas leves\n✔ Correcciones estéticas menores\n\nSu durabilidad depende de higiene y revisiones periódicas.",
+    "author": "",
+    "date": ""
+  },
+  {
+    "id": 19,
+    "title": "Bruxismo: El desgaste silencioso",
+    "category": "Salud Bucal",
+    "image": "/tip-salud-bucal.jpg",
+    "excerpt": "Rechinar los dientes puede dañar tu sonrisa sin que lo notes.",
+    "content": "El bruxismo consiste en apretar o rechinar los dientes, especialmente durante el sueño.\n\n⚠ Consecuencias:\n• Desgaste dental\n• Dolor mandibular\n• Dolores de cabeza\n\n🛡 Tratamiento habitual:\n✔ Placas de descarga nocturna\n✔ Manejo del estrés\n\nDetectarlo a tiempo evita fracturas y pérdida de esmalte.",
+    "author": "",
+    "date": ""
+  },
+  {
+    "id": 20,
+    "title": "Cuidados después de una extracción dental",
+    "category": "Consejos",
+    "image": "/tip-consejos.png",
+    "excerpt": "Seguir indicaciones correctas acelera la recuperación.",
+    "content": "Después de una extracción es fundamental seguir cuidados específicos.\n\n🩹 Primeras 24 horas:\n✔ No enjuagarse vigorosamente\n✔ Evitar fumar\n✔ Aplicar frío externo\n\n🥣 Alimentación:\n• Preferir alimentos blandos y fríos\n\n📅 Si aparece dolor intenso o sangrado persistente, consultar inmediatamente.\n\nUn buen postoperatorio previene complicaciones como la alveolitis.",
+    "author": "",
+    "date": ""
   }
 ]
